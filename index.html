@@ -11,7 +11,9 @@
   <body>
     <header>
       <a name="top"></a>
-      <h1><center class="compName">Loshbaugh Engineering</center></h1>
+      <div class="logo">
+        <img src="Images/L2.png" alt="">
+      </div>
       <section class="socials">
         <a class="test" href="#"><img class="socMedia" src="Images/facebook-letter-logo.svg" alt=""></a>
         <a class="test" href="#"><img class="socMedia" src="Images/instagram.svg" alt=""></a>
@@ -39,7 +41,7 @@
 
       </section>
 
-      <section class="middleLanding">
+      <!-- <section class="middleLanding">
 
         <div class="landingTiles">
 
@@ -72,10 +74,25 @@
 
         </div>
 
-      </section>
+      </section> -->
 
-      <section class="lowerLanding">
-        <div class="lowerWrapper">
+
+      <!-- <section class="lowerLanding"> -->
+
+      <div id="slideout">
+    <div id="containclickme">
+        <div class="metro three-d" id="click-me"></div>
+    </div>
+</div>
+
+
+
+
+<div class="containClick">
+  <div class="contactBtn">Contact Us</div>
+</div>
+
+      <div class="slideout lowerLanding">
           <section class="quickContact column half">
             <h2>Contact Us</h2>
             <p>We would love to hear from you about your project. New construction or remodel, we are here for you.</p>
@@ -85,50 +102,42 @@
         		    <form class="contactForm" action="/send" method="post">
                   <label for="sender">Name</label>
                   <input class="inputField" type="text" name="sender" value="" required>
-
                   <label for="email">Email</label>
                   <input class="inputField" type="email" name="email" value="">
-
                   <label for="phone">Phone Number</label>
                   <input class="inputField" type="text" name="phone" value="">
-
                   <label for="message">Message</label>
                   <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
-
                   <input class="sendMail btn" type="button" name="sendIt" value="Submit">
         		    </form>
                 <span id="sentMessage"></span>
         		  </section>
         		</div>
-
-
-
-
-
           </section>
 
-          <section class="sideContact column right">
-            <div class="verticalLine">
-              <div class="address">
-                <h2>MAILING ADDRESS</h2>
-                <p>1234 your street</p>
-                <p>woodinville, WA 99999</p>
+            <section class="sideContact column right">
+              <div class="verticalLine">
+                <div class="address">
+                  <h2>MAILING ADDRESS</h2>
+                  <p>1234 your street</p>
+                  <p>woodinville, WA 99999</p>
+                </div>
+                <br>
+                <div class="phone">
+                  <h2>PHONE</h2>
+                  <p>444-666-6666</p>
+                </div>
+                <br>
+                <div class="email">
+                  <h2>EMAIL</h2>
+                  <p>l2@gmail.com</p>
+                </div>
               </div>
-              <br>
-              <div class="phone">
-                <h2>PHONE</h2>
-                <p>444-666-6666</p>
-              </div>
-              <br>
-              <div class="email">
-                <h2>EMAIL</h2>
-                <p>l2@gmail.com</p>
-              </div>
-            </div>
-          </section>
+            </section>
+
           </div>
 
-      </section>
+      <!-- </section> -->
     </main>
 
   </body>
