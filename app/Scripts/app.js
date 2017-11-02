@@ -39,8 +39,14 @@
 
 
   mail.showContact = (function () {
+        $(".slide-toggle").click(function(){
+            $(".box").animate({
+                width: "toggle"
+            });
+        });
+    });
     // cache the sliding object in a var
-    var slideout = $('.slideout');
+    // var slideout = $('.slideout');
     // "click-me" is what is in your html not "clickme"
     // $(".contactBtn").toggle(function () {
     //     // use cached object instead of searching
@@ -59,7 +65,7 @@
     //         duration: 500
     //     });
     // });
-});
+// });
 
 
 
