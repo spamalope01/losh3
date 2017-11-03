@@ -40,32 +40,13 @@
 
   mail.showContact = (function () {
         $(".slide-toggle").click(function(){
+          // $('.box').css('position', 'absolute');
             $(".box").animate({
                 width: "toggle"
             });
         });
     });
-    // cache the sliding object in a var
-    // var slideout = $('.slideout');
-    // "click-me" is what is in your html not "clickme"
-    // $(".contactBtn").toggle(function () {
-    //     // use cached object instead of searching
-    //     slideout.animate({
-    //         left: '0px'
-    //     }, {
-    //         queue: false,
-    //         duration: 500
-    //     });
-    // }, function () {
-    //     // use cached object instead of searching
-    //     slideout.animate({
-    //         left: '-300px'
-    //     }, {
-    //         queue: false,
-    //         duration: 500
-    //     });
-    // });
-// });
+
 
 
 
@@ -92,7 +73,7 @@
 $(document).ready(function() {
     mail.getForm();
     mail.showContact();
-    // $('.slideout').hide();
+    $('.slideout').hide();
     // mail.sendForm();
 });
 
