@@ -40,15 +40,22 @@
 
   mail.showContact = (function () {
         $(".slide-toggle").click(function(){
-          // $('.box').css('position', 'absolute');
             $(".box").animate({
                 width: "toggle"
             });
         });
+        $('.box').css('position', 'absolute');
     });
 
 
-
+    mail.hideContact = (function () {
+          $(".closeThis").click(function(){
+              $(".box").animate({
+                  width: "toggle"
+              });
+          });
+          // $('.box').css('position', 'absolute');
+      });
 
 
 
@@ -73,6 +80,7 @@
 $(document).ready(function() {
     mail.getForm();
     mail.showContact();
+    mail.hideContact();
     $('.slideout').hide();
     // mail.sendForm();
 });
