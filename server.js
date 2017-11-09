@@ -10,7 +10,7 @@ var smtpTransport = nodemailer.createTransport({
     pass: "stone905"
   }
 });
-var port = process.env.PORT || 9000;
+var port = process.env.PORT || 80;
 
 app.use(express.static(__dirname + '/app'));
 
