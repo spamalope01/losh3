@@ -28,6 +28,9 @@
       }, function(data){
         console.log('in the get function');
         if(data == "sent"){
+          console.log("email sent");
+          $('.contactForm').hide();
+          $('.contactInvite').hide();
           $('#sentMessage').empty().html(
             'Your email has been sent.  Thank you!  We will be in touch soon.'
           );
@@ -40,6 +43,13 @@
 
   mail.showContact = (function () {
         $(".slide-toggle").click(function(){
+          $('.contactForm input[name=sender]').val("");
+          $('.contactForm input[name=email]').val("");
+          $('.contactForm input[name=phone]').val("");
+          $('.contactForm textarea[name=message]').val("");
+          $('#sentMessage').empty();
+          $('.contactForm').show();
+          $('.concactInvite').show();
             $(".box").animate({
                 width: "toggle"
             });
@@ -54,26 +64,7 @@
                   width: "toggle"
               });
           });
-          // $('.box').css('position', 'absolute');
       });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
