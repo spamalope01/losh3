@@ -1,6 +1,23 @@
 var express = require('express');
-// var nodemailer = require('nodemailer');
 var app = express();
+var port = process.env.PORT || 9000;
+
+app.use(express.static(__dirname + '/app'));
+
+
+app.get('/', function(req, res) {
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.listen(port, function(){
+  console.log('Listening on port:', port);
+});
+
+
+
+// var express = require('express');
+// var nodemailer = require('nodemailer');
+// var app = express();
 
 // const password = require('./variables');
 // let pass = password.password;
@@ -14,14 +31,14 @@ var app = express();
 //     pass: pass
 //   }
 // });
-var port = process.env.PORT || 9000;
-
-app.use(express.static(__dirname + '/app'));
-
-
-app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/index.html');
-});
+// var port = process.env.PORT || 9000;
+//
+// app.use(express.static(__dirname + '/app'));
+//
+//
+// app.get('/', function(req, res) {
+//   res.sendFile(__dirname + '/index.html');
+// });
 
 // app.get('/send', function(req, res) {
 //   var mailOptions={
@@ -43,6 +60,6 @@ app.get('/', function(req, res) {
 //   });
 // });
 
-app.listen(port, function(){
-  console.log('Listening on port:', port);
-});
+// app.listen(port, function(){
+//   console.log('Listening on port:', port);
+// });
