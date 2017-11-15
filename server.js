@@ -19,18 +19,18 @@ app.listen(port, function(){
 var nodemailer = require('nodemailer');
 // var app = express();
 //
-// const password = require('./variables');
-// let pass = password.password;
+const password = require('./variables');
+let pass = password.password;
 //
 //
-// var smtpTransport = nodemailer.createTransport({
-//   host: "smtp.gmail.com",
-//   // port: 587,
-//   auth: {
-//     user: "l2workquery@gmail.com",
-//     pass: pass
-//   }
-// });
+var smtpTransport = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  // port: 587,
+  auth: {
+    user: "l2workquery@gmail.com",
+    pass: pass
+  }
+});
 // var port = process.env.PORT || 9000;
 //
 // app.use(express.static(__dirname + '/app'));
