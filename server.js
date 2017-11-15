@@ -25,7 +25,7 @@ let pass = password.password;
 
 var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
-  // port: 587,
+  port: 587,
   auth: {
     user: "l2workquery@gmail.com",
     pass: pass
