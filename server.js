@@ -19,8 +19,8 @@ app.listen(port, function(){
 var nodemailer = require('nodemailer');
 // var app = express();
 //
-// const password = require('./variables');
-// let pass = password.password;
+const password = require('./variables');
+let pass = password.password;
 //
 //
 var smtpTransport = nodemailer.createTransport({
