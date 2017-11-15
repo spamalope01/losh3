@@ -1,9 +1,9 @@
 var express = require('express');
-var nodemailer = require('nodemailer');
+// var nodemailer = require('nodemailer');
 var app = express();
 
-const password = require('./variables');
-let pass = password.password;
+// const password = require('./variables');
+// let pass = password.password;
 
 
 // var smtpTransport = nodemailer.createTransport({
