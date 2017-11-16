@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 9000;
+var nodemailer = require('nodemailer');
+
+const password = require('./variables');
+let pass = password.password;
 
 app.use(express.static(__dirname + '/app'));
 
@@ -9,37 +13,14 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(port, function(){
-  console.log('Listening on port:', port);
-});
-
-
-
-// var express = require('express');
-var nodemailer = require('nodemailer');
-// var app = express();
-//
-const password = require('./variables');
-let pass = password.password;
-//
-//
 var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
-  // port: 587,
   auth: {
     user: "l2workquery@gmail.com",
     pass: pass
   }
 });
-// var port = process.env.PORT || 9000;
-//
-// app.use(express.static(__dirname + '/app'));
-//
-//
-// app.get('/', function(req, res) {
-//   res.sendFile(__dirname + '/index.html');
-// });
-//
+
 app.get('/send', function(req, res) {
   var mailOptions={
     to : "l2workquery@gmail.com",
@@ -59,7 +40,8 @@ app.get('/send', function(req, res) {
     }
   });
 });
-//
-// app.listen(port, function(){
-//   console.log('Listening on port:', port);
-// });
+
+
+app.listen(port, function(){
+  console.log('Listening on port:', port);
+});
