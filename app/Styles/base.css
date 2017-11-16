@@ -52,7 +52,7 @@ main {
 }
 
 .logo img {
-  width: 10rem;
+  width: 6rem;
 }
 
 header {
@@ -100,27 +100,6 @@ header {
   height: 10em;
   z-index: 10;
 }
-
-
-
-
-
-/*.slideout {
-  position: absolute;
-  left: -300;
-}*/
-
-/*.lowerLanding {
-  position: relative;
-  left: -103em;
-  z-index: 1;
-  height: 30%;
-  overflow: hidden;
-  border-top: 1px solid black;
-  margin: 0 2rem;
-  background: #666563;
-  color: #fff;
-}*/
 
 .quickContact {
   margin-top: 3em;
@@ -189,9 +168,21 @@ label {
   font-size: 1rem;
   transition: all .2s ease-in-out;
 
-/*}
+}
 
-
-/*footer {
-  border-top: 1px solid black;
-}*/
+.ghostBtn {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.ghost-button-rounded-corners:hover,
+.ghost-button-rounded-corners:active {
+  background-color: #fff;
+  color: #000;
+}
