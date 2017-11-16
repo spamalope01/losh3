@@ -20,7 +20,7 @@
       console.log('email', mail.$email);
       console.log('message', mail.$message);
       console.log('got the form');
-      $.get("https://localhost:9000/send", {
+      $.get("https://loshengineering.herokuapp.com/send", {
         from: mail.$from,
         phone: mail.$phone,
         email: mail.$email,
