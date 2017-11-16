@@ -181,8 +181,8 @@ label {
   outline: none;
   text-decoration: none;
 }
-.ghost-button-rounded-corners:hover,
-.ghost-button-rounded-corners:active {
+.ghostBtn:hover,
+.ghostBtn:active {
   background-color: #fff;
   color: #000;
 }
