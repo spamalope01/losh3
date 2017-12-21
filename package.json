@@ -20,6 +20,6 @@
   "dependencies": {
     "express": "^4.16.2",
     "nodemailer": "^4.2.0",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.14.1"
   }
 }

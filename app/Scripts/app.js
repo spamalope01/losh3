@@ -7,7 +7,6 @@
   mail.$message = null;
 
 
-
   mail.getForm = function(){
     $('.contactForm').off().on('click', '.sendMail', function(e){
       e.preventDefault();
@@ -15,11 +14,6 @@
       mail.$email = $('.contactForm input[name=email]').val();
       mail.$phone = $('.contactForm input[name=phone]').val();
       mail.$message = $('.contactForm textarea[name=message]').val();
-      console.log('from', mail.$from);
-      console.log('phone', mail.$phone);
-      console.log('email', mail.$email);
-      console.log('message', mail.$message);
-      console.log('got the form');
       $.get("https://loshengineering.herokuapp.com/send", {
         from: mail.$from,
         phone: mail.$phone,
