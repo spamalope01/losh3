@@ -6,6 +6,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="Styles/normalize.css">
     <link rel="stylesheet" href="Styles/base.css">
+    <link rel="stylesheet" href="Styles/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
@@ -16,32 +17,41 @@
 
     <header>
       <a name="top"></a>
-      <div class="logo"><img src="Images/L2-edited.png" alt=""></div>
-      <section class="socials">
-        <a class="test" href="#"><img class="socMedia invert" src="Images/facebook-letter-logo.svg" alt=""></a>
-        <a class="test" href="#"><img class="socMedia invert" src="Images/instagram.svg" alt=""></a>
-        <a class="test" href="#"><img class="socMedia invert" src="Images/twitter-logo.svg" alt=""></a>
-      </section>
+      <nav class="stickyNav">
+        <div class="logo"><img src="Images/L2-edited.png" alt=""></div>
+        <ul class="globalNav">
+            <li><a href="#testimonials" class="smoothScroll">Testimonials</a></li>
+            <li><a href="#work" class="desktopNav smoothScroll">Our Work</a></li>
+            <li><a href="#about" class="desktopNav smoothScroll">About Us</a></li>
+            <li><a href="#contact" class="desktopNav smoothScroll">Contact Us</a></li>
+          </ul>
+      </nav>
     </header>
 
     <main>
+      <section class="paddingTop"></section>
 
       <!-- <section class="landingUpper"> -->
+        <!-- <div class="upperText"> -->
+          <!-- <h1>Dream. Build. Live.</h1> -->
+          <!-- <p>Our focus is making your dream home a reality.  We will work with you to realize your needs.  We will advise, organize and lead your project from the very first idea until you are walking through the front door. We take pride in ensuring that our clients receive the highest quality of care and professionalism.</p> -->
+          <!-- <a href="#" class="ghostBtn slide-toggle">Contact Us</a> -->
+          <!-- <button type="button" class="ghostBtn slide-toggle">Contact Us</button> -->
+        <!-- </div> -->
+      <!-- </section> -->
 
-        <div class="upperText">
-        <h1>Dream. Build. Live.</h1>
-        <p>Our focus is making your dream home a reality.  We will work with you to realize your needs.  We will advise, organize and lead your project from the very first idea until you are walking through the front door. We take pride in ensuring that our clients receive the highest quality of care and professionalism.</p>
-        <a href="#" class="ghostBtn slide-toggle">Contact Us</a>
-        <!-- <button type="button" class="ghostBtn slide-toggle">Contact Us</button> -->
-      </div>
+      <section class="landingUpper">
+        <h3>Dream. Build. Live.</h3>
+      </section>
 
 
-          <div class="box slideout">
+
+          <!-- <div class="box slideout">
             <img src="Images/close-window.png" alt="" class="closeThis">
             <a href="#" class="close">
               <div class="box-inner">
-                <section class="quickContact column half">
-                  <h2>Contact Us</h2>
+                <section class="quickContact column half"> -->
+                  <!-- <h2>Contact Us</h2>
                   <p class="contactInvite">We would love to hear from you about your project. New construction or remodel, we are here for you.</p>
 
                   <div class="contactUs">
@@ -59,8 +69,8 @@
                       </form>
                       <span id="sentMessage"></span>
                     </section>
-                  </div>
-                </section>
+                  </div> -->
+                <!-- </section>
 
                   <section class="sideContact column right">
                     <div class="verticalLine">
@@ -82,28 +92,95 @@
                     </div>
                   </section>
 
-              </div>
-        </div>
+              </div> -->
+        <!-- </div> -->
 
-        <section class="ourWork">
-          
-
+        <section id="testimonials" class="testimonials">
+          <h1>TESTIMONIALS</h1>
+          <h3>What some of our clients have said about us.</h3>
+          <div class="quoteOne"></div>
+          <div class="quoteTwo"></div>
+          <div class="quoteThree"></div>
         </section>
 
-        <section class="testimonials">
 
+        <section id="work" class="ourWork">
+          <h1>WORK</h1>
+          <div class="workOne"></div>
+          <div class="workTwo"></div>
+          <div class="workThree"></div>
+          <div class="workFour"></div>
+          <div class="workFive"></div>
+          <a href="#top" class="backTop smoothScroll">Back to top</a>
         </section>
 
+        <section id="about" class="aboutUs">
+          <h1>ABOUT</h1>
+          <p>Our focus is making your dream home a reality.  We will work with you to realize your needs.  We will advise, organize and lead your project from the very first idea until you are walking through the front door. We take pride in ensuring that our clients receive the highest quality of care and professionalism.</p>
+          <div class="serviceOne"></div>
+          <div class="serviceTwo"></div>
+          <div class="serviceThree"></div>
+          <div class="serviceFour"></div>
+          <a href="#top" class="backTop smoothScroll">Back to top</a>
+        </section>
 
-        <section class="aboutUs">
+        <section id="contact" class="contactUs">
+          <h2>Contact Us</h2>
+          <p class="contactInvite">We would love to hear from you about your project. New construction or remodel, we are here for you.</p>
 
+          <div class="contactUs">
+            <section>
+              <form class="contactForm" action="/send" method="post">
+                <label for="sender">Name</label>
+                <input class="inputField" type="text" name="sender" value="" required>
+                <label for="email">Email</label>
+                <input class="inputField" type="email" name="email" value="">
+                <label for="phone">Phone Number</label>
+                <input class="inputField" type="text" name="phone" value="">
+                <label for="message">Message</label>
+                <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
+                <input class="sendMail btn" type="button" name="sendIt" value="Submit">
+              </form>
+              <span id="sentMessage"></span>
+            </section>
+          </div>
+          <a href="#top" class="backTop smoothScroll">Back to top</a>
         </section>
 
     </main>
 
 
+
+    <footer>
+      <h1>FOOTER</h1>
+      <section class="footerAddy">
+        <div class="address">
+          <h2>MAILING ADDRESS</h2>
+          <p>1234 your street</p>
+          <p>woodinville, WA 99999</p>
+        </div>
+        <div class="phone">
+          <h2>PHONE</h2>
+          <p>444-666-6666</p>
+        </div>
+        <br>
+        <div class="email">
+          <h2>EMAIL</h2>
+          <p>l2@gmail.com</p>
+        </div>
+      </section>
+        <!-- <section class="socials">
+          <a class="test" href="#"><img class="socMedia invert" src="Images/facebook-letter-logo.svg" alt=""></a>
+          <a class="test" href="#"><img class="socMedia invert" src="Images/instagram.svg" alt=""></a>
+          <a class="test" href="#"><img class="socMedia invert" src="Images/twitter-logo.svg" alt=""></a>
+        </section> -->
+
+    </footer>
+
       </div>
 
   </body>
   <script type="text/javascript" src="Scripts/app.js"></script>
+  <script type="text/javascript" src="Scripts/smoothscroll.js"></script>
+  <script type="text/javascript" src="Scripts/scroll.js"></script>
 </html>
