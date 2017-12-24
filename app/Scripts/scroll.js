@@ -1,9 +1,11 @@
 $(window).scroll(function() {
+  console.log('in the scroll');
   var scroll = $(window).scrollTop();
 
   if (scroll >= 500) {
-    $('.stickyNav').addClass('darkNav');
+    console.log('running scroll');
+    $('.globalNav').addClass('darkNav');
   } else {
-    $('.stickyNav').removeClass('darkNav');
+    $('.globalNav').removeClass('darkNav');
   }
 });
