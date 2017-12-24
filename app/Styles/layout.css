@@ -3,7 +3,7 @@ margin: 0, auto;
 display: inline;
 font-size: 1em;
 line-height: 1;
-/* text-decoration: none; */
+text-decoration: none;
 text-transform: uppercase;
 }
 
@@ -12,9 +12,6 @@ text-transform: uppercase;
   display: inline-block;
   padding: 0.625em;
   color: #fff;
-}
+  text-decoration: none;
 
-.landingUpper {
-  display: block;
-  
 }
