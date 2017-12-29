@@ -1,3 +1,29 @@
+.stickyNav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  height: 7em;
+  border-bottom: 1px solid #fff;
+}
+
+
+.globalNav {
+  right: 5px;
+  float: right;
+  list-style: none;
+  margin:0;
+  padding:0;
+  color: white;
+  width: auto;
+  height: 2em;
+  background:rgba(0,0,0,0);
+}
+
+.darkNav {
+  background: rgba(0,0,0,.75);
+}
+
 .globalNav li {
 margin: 0, auto;
 display: inline;
@@ -14,4 +40,168 @@ text-transform: uppercase;
   color: #fff;
   text-decoration: none;
 
+}
+
+.logo {
+  display: inline;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 6rem;
+}
+
+.socials {
+  line-height: 40px;
+  margin-top: auto;
+  position: absolute;
+  right: 15%;
+  top: 1em;
+}
+
+.socMedia {
+  width: 27px;
+  margin: 0 0 0 8.91px;
+}
+
+.upperText {
+  /* display: inline-block; */
+  position: absolute;
+  top: 10%;
+  top: 5rem;
+  right: 13%;
+  color: white;
+  text-align: center;
+  padding: 2px 16px;
+  width: 100%;
+  /*z-index: 9;*/
+}
+
+label, textarea {
+  display: block;
+}
+
+label {
+  margin: 1rem 0 .2rem 0;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.address, .phone, .email {
+  margin-left: 5%;
+}
+
+.btn {
+  border-radius: .25rem;
+  color: black;
+  height: 7.5%;
+  margin-top: 2em;
+  margin-bottom: 3%;
+  width: 15rem;
+  background-color: #63D1F4;
+  border-color: #63D1F4;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: middle;
+  padding: .5em 1rem;
+  font-size: 1rem;
+  transition: all .2s ease-in-out;
+}
+
+/* .mainProj img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+  background:rgba(255,255,255,0.75);
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  height: 100%;
+} */
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
+  grid-template-rows: repeat(8, 50px);
+}
+
+.projectsContainer div{
+  border: 1px solid black;
+}
+
+.mainProj {
+  grid-column: 1 / 4;
+  grid-row: 1 /7;
+}
+
+.proj2 {
+  grid-row: 2 / 4;
+}
+
+.proj3 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 7;
+  background: red;
+}
+
+.proj4 {
+  grid-row: 1 / 4;
+}
+
+.proj5 {
+  grid-column: 5 / 6;
+  grid-row: 4 / 7;
+  background: black;
+}
+
+.testimonialWrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
+}
+
+.testimony1 {
+  grid-column: 3 / 4;
+}
+
+.testimony2 {
+  grid-column: 5 / 6;
+}
+
+.testimony3 {
+  grid-column: 7 / 8;
+}
+
+.contactWrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
+}
+
+.contactUs {
+  grid-column: 3 / 7;
 }
