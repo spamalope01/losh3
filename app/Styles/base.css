@@ -28,3 +28,20 @@ header {
 .ourWork {
   background: #F0F0F0;
 }
+
+.aboutUs {
+  /* height: 10em; */
+  text-align: center;
+  border-bottom: 1px solid grey;
+  /* background: #f1c27d; */
+}
+
+.contactUs{
+
+}
+
+footer {
+  position: relative;
+  overflow: auto;
+  background: #F0F0F0;
+}

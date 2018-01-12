@@ -42,6 +42,10 @@ text-transform: uppercase;
 
 }
 
+.mobileNav {
+  display: none;
+}
+
 .logo {
   display: inline;
   position: absolute;
@@ -53,19 +57,6 @@ text-transform: uppercase;
 
 .logo img {
   width: 6rem;
-}
-
-.socials {
-  line-height: 40px;
-  margin-top: auto;
-  position: absolute;
-  right: 15%;
-  top: 1em;
-}
-
-.socMedia {
-  width: 27px;
-  margin: 0 0 0 8.91px;
 }
 
 .upperText {
@@ -122,50 +113,7 @@ label {
   transition: all .2s ease-in-out;
 }
 
-/* .mainProj img {
-  width: 100%;
-  height: 100%;
-} */
-
-
-
-
-
-
-/* .overlay {
-  background: url('../Images/us.jpg') no-repeat fixed;
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 16px;
-  padding: 16px 32px;
-  background-color: #4CAF50;
-}
-
-.overlayText {
-  z-index: 7;
-} */
-
-/* .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-} */
-
-/* .mainProj:hover .image {
-  opacity: 0.3;
-}
-
-.mainProj:hover .overlay {
-  opacity: 0.3;
-} */
+/* Projects */
 
 .projectsContainer {
   position: relative;
@@ -175,12 +123,6 @@ label {
   grid-gap: 2px;
 }
 
-/*img {
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
-}*/
 
 .mainProj {
   grid-column: 2 / 5;
@@ -207,11 +149,6 @@ label {
   display: block;
   height: 100%;
   width: 100%;
-  /*display: grid;
-  grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(12, 50px);*/
-  /*grid-column: 1 / 4;
-  grid-row: 1 / 11;*/
 }
 
 .proj2 {
@@ -246,6 +183,8 @@ label {
   background-size: cover;
 }
 
+/* Testimonials */
+
 .testimonials {
   text-align: center;
 }
@@ -263,6 +202,44 @@ label {
   grid-column: 7 / 8;
 }
 
+
+/* About */
+.aboutText {
+  max-width: 70rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.services {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  /* border-bottom: 1px solid grey; */
+}
+
+.serviceOne, .serviceTwo, .serviceThree, .serviceFour{
+  width: 20%;
+  display: inline-block;
+}
+
+.serviceTwo, .serviceThree, .serviceFour{
+  margin-left: 3%;
+}
+
+.services img {
+  display: inline-block;
+  width: 20%;
+}
+
+/* Copntact */
+
+.contactText{
+  margin-top: 4%;
+  text-align: center;
+}
+
+
 .contactWrapper {
   display: grid;
   grid-template-columns: repeat(12, 200px);
@@ -270,4 +247,27 @@ label {
 
 .contactUs {
   grid-column: 3 / 7;
+}
+
+/* Footer */
+
+.footerAddy{
+  float: right;
+  /* position: absolute;
+  right: 5%; */
+  display: inline-block;
+}
+
+.socials {
+  line-height: 40px;
+  margin-top: auto;
+  position: absolute;
+  bottom: 1%;
+}
+
+.socMedia {
+  /* position: absolute;
+  bottom: 1%; */
+  width: 27px;
+  margin: 0 0 0 8.91px;
 }
