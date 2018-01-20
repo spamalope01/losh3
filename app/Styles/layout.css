@@ -192,6 +192,7 @@ label {
 .testimonialWrapper {
   display: grid;
   grid-template-columns: repeat(12, 200px);
+  margin-bottom: 4rem;
 }
 
 .testimony2 {
@@ -203,19 +204,17 @@ label {
 }
 
 
-/* About */
-.aboutText {
-  max-width: 70rem;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
+/* Services */
 .services {
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 5rem;
   padding-bottom: 5rem;
   /* border-bottom: 1px solid grey; */
+}
+
+.serviceOne {
+  background: url('../Images/light-bulb.svg') no-repeat;
 }
 
 .serviceOne, .serviceTwo, .serviceThree, .serviceFour{
@@ -231,6 +230,60 @@ label {
   display: inline-block;
   width: 20%;
 }
+
+/* service card flip */
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+
+
+/* About */
+.aboutText {
+  max-width: 70rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 /* Copntact */
 
