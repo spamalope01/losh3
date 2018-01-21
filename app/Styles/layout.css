@@ -215,6 +215,8 @@ label {
 
 .serviceOne {
   background: url('../Images/light-bulb.svg') no-repeat;
+  background-size: contain;
+  width: 30.3%;
 }
 
 .serviceOne, .serviceTwo, .serviceThree, .serviceFour{
@@ -229,6 +231,10 @@ label {
 .services img {
   display: inline-block;
   width: 20%;
+}
+
+.serviceUL {
+  list-style: none;
 }
 
 /* service card flip */
