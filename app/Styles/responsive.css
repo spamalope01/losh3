@@ -1,0 +1,67 @@
+@media only screen and (max-width : 768px) {
+  .globalNav{
+    display: none;
+  }
+
+  .stickyNav {
+    height: 10rem;
+  }
+
+  .mobileNav {
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    bottom: 0%;
+    right: 0%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    color: white;
+    /* width: auto; */
+    height: 2em;
+  }
+
+  .mobileNav li{
+    margin: 0, auto;
+    /* padding-left: 3rem; */
+    display: inline;
+    font-size: 1em;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .workNav {
+    position: absolute;
+    right: 80%;
+  }
+
+  .aboutNav{
+    position: absolute;
+    left: 45%;
+  }
+
+  .contactNav {
+    position: absolute;
+    left: 75%;
+  }
+
+  .mobileNav li a {
+    /* margin-top: 5px; */
+    display: inline-block;
+    padding: 0.625em;
+    color: #fff;
+    text-decoration: none;
+
+  }
+
+  .logo{
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+  }
+
+
+}
