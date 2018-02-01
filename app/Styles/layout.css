@@ -62,13 +62,13 @@ text-transform: uppercase;
 .upperText {
   /* display: inline-block; */
   position: absolute;
-  top: 10%;
-  top: 5rem;
+  top: 25%;
   right: 13%;
   color: white;
   text-align: center;
   padding: 2px 16px;
   width: 100%;
+  font-size: 70px;
   /*z-index: 9;*/
 }
 
