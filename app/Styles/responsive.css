@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .landingUpper{
+    height: 24rem;
+  }
+
   .stickyNav {
     height: 10rem;
   }
@@ -61,6 +65,16 @@
     margin-left: auto;
     margin-right: auto;
     width: 6rem;
+  }
+
+  .upperText {
+    /* display: inline-block; */
+    position: absolute;
+    top: 20%;
+    /* top: 10rem; */
+    width: 100%;
+    font-size: 40px;
+    /*z-index: 9;*/
   }
 
 
