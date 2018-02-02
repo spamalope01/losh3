@@ -77,5 +77,28 @@
     /*z-index: 9;*/
   }
 
+  .serviceOne, .serviceTwo, .serviceThree, .serviceFour{
+    width: 29%;
+    border: 1px solid red;
+    /* height: 10rem; */
+    display: inline-block;
+  }
+
+  .serviceTwo, .serviceThree, .serviceFour{
+    /* margin-left: 3%; */
+  }
+
+  .services img {
+    display: inline-block;
+    width: 20%;
+  }
+
+
+
+
+
+
+
+
 
 }
