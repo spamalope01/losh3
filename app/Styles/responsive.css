@@ -81,7 +81,7 @@
     width: 29%;
     border: 1px solid red;
     /* height: 10rem; */
-    display: inline-block;
+    /* display: inline-block; */
   }
 
   .serviceTwo, .serviceThree, .serviceFour{
