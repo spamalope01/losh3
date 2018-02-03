@@ -300,10 +300,34 @@ label {
 }
 
 /* About */
+/* .aboutUs{
+  overflow: visible;
+  position: relative;
+} */
+
 .aboutText {
   max-width: 70rem;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.aboutBrian{
+  position: absolute;
+  left: 4%;
+  top: 40%;
+  width: 33%;
+}
+
+.aboutSister{
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  width: 33%;
+}
+
+.aboutImg {
+  width: 15%;
+  border-radius: 50%;
 }
 
 
