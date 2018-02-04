@@ -237,13 +237,6 @@ label {
 }
 
 /* Services */
-.ourServices {
-  text-align: center;
-  margin-top: 4rem;
-  margin-bottom: 5rem;
-  padding-bottom: 5rem;
-  /* border-bottom: 1px solid grey; */
-}
 
 .serviceGrouping {
   padding-top: 3%;
@@ -300,10 +293,6 @@ label {
 }
 
 /* About */
-/* .aboutUs{
-  overflow: visible;
-  position: relative;
-} */
 
 .aboutText {
   max-width: 70rem;
@@ -313,16 +302,29 @@ label {
 
 .aboutBrian{
   position: absolute;
-  left: 4%;
-  top: 40%;
+  left: 6%;
+  bottom: 5%;
   width: 33%;
 }
 
 .aboutSister{
   position: absolute;
-  right: 3%;
-  top: 40%;
+  right: 6%;
+  bottom: 6%;
   width: 33%;
+}
+
+.brianImg {
+  position: absolute;
+  left: 15%;
+  top: 32%
+}
+
+.sisterImg {
+  position: absolute;
+  height: 30%;
+  right: 15%;
+  top: 32%;
 }
 
 .aboutImg {
@@ -350,10 +352,21 @@ label {
 
 /* Footer */
 
+.footerLogo{
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 18%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  width: 6rem;
+}
+
 .footerAddy{
-  float: right;
+  float: left;
+  margin-left: 10%;
   /* position: absolute;
-  right: 5%; */
+  left: 5%; */
   display: inline-block;
 }
 
@@ -361,12 +374,18 @@ label {
   line-height: 40px;
   margin-top: auto;
   position: absolute;
-  bottom: 1%;
+  top: 10%;
+  right: 5%;
 }
 
 .socMedia {
-  /* position: absolute;
-  bottom: 1%; */
   width: 27px;
   margin: 0 0 0 8.91px;
+}
+
+.footerCopy {
+  display: inline-block;
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
 }
