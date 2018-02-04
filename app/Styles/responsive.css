@@ -3,10 +3,18 @@
     display: none;
   }
 
-  .landingUpper{
-    height: 24rem;
+/* Sections */
+
+.landingUpper{
+    /* height: 24rem; */
   }
 
+.ourServices {
+  height: 50rem;
+}
+
+
+/* Nav */
   .stickyNav {
     height: 10rem;
   }
@@ -67,6 +75,9 @@
     width: 6rem;
   }
 
+
+/* Upper Landing */
+
   .upperText {
     /* display: inline-block; */
     position: absolute;
@@ -77,23 +88,98 @@
     /*z-index: 9;*/
   }
 
-  .serviceOne, .serviceTwo, .serviceThree, .serviceFour{
-    width: 29%;
-    border: 1px solid red;
+
+/* Services */
+
+  /* .serviceTwo, .serviceThree, .serviceFour{ */
+    /* width: 29%; */
+    /* border: 1px solid red; */
     /* height: 10rem; */
     /* display: inline-block; */
-  }
+  /* } */
+
+  /* .serviceGrouping {
+    position: relative;
+    border: 1px solid red;
+  } */
 
   .serviceTwo, .serviceThree, .serviceFour{
-    /* margin-left: 3%; */
+    display: block;
+    margin-left: 50%;
+    /* margin-right: auto; */
   }
 
-  .services img {
-    display: inline-block;
-    width: 20%;
+  .serviceTwo{
+    position: absolute;
+    top: 15%;
+    right: 40%
   }
 
+  .serviceThree {
+    position: absolute;
+    top: 90%;
+    right: 40%;
+  }
 
+  .serviceFour{
+    position: absolute;
+    float: none;
+    top: 40%;
+    right: 40%;
+  }
+
+  /* .serviceImage {
+    margin-left: 40%;
+    width: 40%;
+  } */
+
+
+  .landImg {
+    /* width: 8%; */
+  }
+
+/* Our Work */
+
+
+
+
+
+
+
+
+/* Testimonials */
+
+
+
+
+
+
+
+
+
+/* About Us */
+
+
+
+
+
+
+
+
+
+
+/* Contact Us */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 
 
 
