@@ -112,30 +112,66 @@
   .serviceTwo{
     position: absolute;
     top: 15%;
-    right: 40%
+    right: 45%
   }
 
   .serviceThree {
     position: absolute;
-    top: 90%;
-    right: 40%;
+    /* top: 90%;
+    right: 40%; */
+
+
+    top: 41%;
+right: 22%;
+width: 23em;
+margin: 0;
+  }
+
+  .serviceThree ul {
+    padding-right: 12%;
+  }
+
+  .serviceFour ul {
+    padding-right: 12%;
   }
 
   .serviceFour{
     position: absolute;
     float: none;
-    top: 40%;
-    right: 40%;
+    margin: 0;
+    top: 71%;
+    right: 46.5%;
   }
 
-  /* .serviceImage {
-    margin-left: 40%;
-    width: 40%;
-  } */
+.fourText{
+  width: 15em;
+}
 
+
+  .serviceImage {
+    position: absolute;
+    right: 110%;
+  }
+
+  .commImg{
+    position: absolute;
+    right: 100%;
+  }
 
   .landImg {
-    /* width: 8%; */
+    position: absolute;
+    right: 92%;
+    width: 16%;
+  }
+
+  .serviceWrapper{
+    /* border: 1px solid black; */
+    position: absolute;
+    width:14rem;
+  }
+
+  .serviceWrapper3 {
+    width: 25rem;
   }
 
 /* Our Work */
