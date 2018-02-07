@@ -124,6 +124,10 @@ label {
 
 /* Projects */
 
+.mobileWork {
+  display: none;
+}
+
 .ourWork{
   text-align: center;
 }
