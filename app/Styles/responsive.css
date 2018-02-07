@@ -183,8 +183,88 @@ margin: 0;
   }
 
 /* Our Work */
+.ourWork{
+  height: 150rem;
+}
 
+.mobileWork {
+  display: inline-block;
+}
 
+.projectsContainer{
+  display: none;
+}
+
+.mainProj {
+  position: absolute;
+  top: 6%;
+  left: 12%;
+  width: 80%;
+  height: 17rem;
+  background: url("../Images/home.jpg") no-repeat;
+  background-size: cover;
+}
+
+.mainDesc {
+  position: absolute;
+  top: 18%;
+  left: 12%;
+  width: 81%;
+  color: #000;
+}
+
+.proj2 {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  background: url("../Images/us.jpg") no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 17rem;
+}
+
+.proj2Desc{
+  position: absolute;
+  top: 37%;
+  left:12%;
+  width:81%;
+}
+
+.proj3{
+  position: absolute;
+  background: url("../Images/livingroom.jpg") no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30%;
+}
+
+.proj3Desc{
+  position: absolute;
+}
+
+.proj4 {
+  position: absolute;
+  background: url("../Images/home.jpg") no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30%;
+}
+
+.proj4Desc{
+  position: absolute;
+}
+
+.proj5{
+  position: absolute;
+  background: url("../Images/you.jpg") no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 30%;
+}
+
+.proj5Desc{
+  position: absolute;
+}
 
 
 
@@ -217,12 +297,6 @@ margin: 0;
  }
 
 
-
-
-
-
-
-
 /* About Us */
 
 .aboutUs{
@@ -235,8 +309,7 @@ margin: 0;
 }
 
 .aboutBrian{
-  margin-right: 5%;
-  left: 35%;
+  left: 31%;
   bottom: 43%;
   width: 63%;
 }
@@ -250,28 +323,43 @@ margin: 0;
 .aboutSister{
   width: 63%;
   right:6%;
+  bottom: 10%;
 }
 
-
-
-
-
-
 /* Contact Us */
+.contactInvite{
+  margin: 3%;
+}
 
+.contactWrapper{
+  grid-template-columns: repeat(4, 350px);
+}
 
+.contactUs{
+  grid-column: 1 / 3;
+}
 
-
-
-
-
+.contactForm{
+  width: 80%;
+  margin-left: 3%;
+}
 
 
 
 /* Footer */
 
+footer {
+  height: 20rem;
+}
 
+.footerLogo {
+  top: 5%;
+}
 
+.footerAddy{
+  margin-top: 20%;
+  margin-left: 2%;
+}
 
 
 
