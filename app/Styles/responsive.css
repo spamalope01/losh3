@@ -124,14 +124,10 @@ and (max-width : 667px) {
 
   .serviceThree {
     position: absolute;
-    /* top: 90%;
-    right: 40%; */
-
-
     top: 41%;
-right: 11%;
-width: 23em;
-margin: 0;
+    right: 11%;
+    width: 23em;
+    margin: 0;
   }
 
   .serviceThree ul {
@@ -150,10 +146,9 @@ margin: 0;
     right: 49.5%;
   }
 
-.fourText{
-  width: 15em;
-}
-
+  .fourText{
+    width: 15em;
+  }
 
   .serviceImage {
     position: absolute;
@@ -184,7 +179,8 @@ margin: 0;
 
 /* Our Work */
 .ourWork{
-  height: 150rem;
+  height: 110rem;
+  /* height: 90rem; */
 }
 
 .mobileWork {
@@ -197,7 +193,7 @@ margin: 0;
 
 .mainProj {
   position: absolute;
-  top: 6%;
+  top: 10%;
   left: 12%;
   width: 80%;
   height: 17rem;
@@ -207,7 +203,7 @@ margin: 0;
 
 .mainDesc {
   position: absolute;
-  top: 18%;
+  top: 27%;
   left: 12%;
   width: 81%;
   color: #000;
@@ -215,7 +211,7 @@ margin: 0;
 
 .proj2 {
   position: absolute;
-  top: 25%;
+  top: 39%;
   left: 12%;
   background: url("../Images/us.jpg") no-repeat;
   background-size: cover;
@@ -225,7 +221,7 @@ margin: 0;
 
 .proj2Desc{
   position: absolute;
-  top: 37%;
+  top: 56%;
   left:12%;
   width:81%;
 }
@@ -235,11 +231,16 @@ margin: 0;
   background: url("../Images/livingroom.jpg") no-repeat;
   background-size: cover;
   width: 80%;
-  height: 30%;
+  top: 68%;
+  left: 12%;
+  height: 17rem;
 }
 
 .proj3Desc{
   position: absolute;
+  top: 85%;
+  left: 12%;
+  width: 81%;
 }
 
 .proj4 {
@@ -247,24 +248,34 @@ margin: 0;
   background: url("../Images/home.jpg") no-repeat;
   background-size: cover;
   width: 80%;
-  height: 30%;
+  top: 65%;
+  left: 12%;
+  height: 17rem;
 }
 
 .proj4Desc{
   position: absolute;
+  top: 77%;
+  left: 12%;
+  width: 81%;
 }
 
-.proj5{
+/* .proj5{
   position: absolute;
   background: url("../Images/you.jpg") no-repeat;
   background-size: cover;
   width: 80%;
-  height: 30%;
+  height: 17rem;
+  top: 85%;
+  left: 12%;
 }
 
 .proj5Desc{
   position: absolute;
-}
+  top: 97%;
+  left: 12%;
+  width: 81%
+} */
 
 
 
