@@ -13,8 +13,6 @@ header {
 
 .landingUpper {
   background: url('../Images/newBackground.jpg') no-repeat fixed;
-  /* background-size: 100%;
-  height: 40rem; */
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -26,9 +24,7 @@ header {
   position: relative;
   text-align: center;
   margin-top: 4rem;
-  /* margin-bottom: 5rem; */
   padding-bottom: 5rem;
-  /* border-bottom: 1px solid grey; */
 }
 
 .testimonials {
@@ -66,7 +62,6 @@ footer {
   position: relative;
   overflow: auto;
   background: #F0F0F0;
-  /* text-align: center; */
 }
 
 .backTop {

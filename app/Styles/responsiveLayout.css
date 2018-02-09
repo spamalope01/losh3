@@ -1,16 +1,11 @@
-/* @media only screen and (max-width : 768px) { */
-@media only screen
-/* and (min-device-width : 375px) */
-and (max-width : 667px) {
+@media only screen and (max-width: 667px) {
+
+
   .globalNav{
     display: none;
   }
 
 /* Sections */
-
-.landingUpper{
-    /* height: 24rem; */
-  }
 
 .ourServices {
   height: 50rem;
@@ -32,13 +27,11 @@ and (max-width : 667px) {
     margin:0;
     padding:0;
     color: white;
-    /* width: auto; */
     height: 2em;
   }
 
   .mobileNav li{
     margin: 0, auto;
-    /* padding-left: 3rem; */
     display: inline;
     font-size: 1em;
     line-height: 1;
@@ -62,7 +55,6 @@ and (max-width : 667px) {
   }
 
   .mobileNav li a {
-    /* margin-top: 5px; */
     display: inline-block;
     padding: 0.625em;
     color: #fff;
@@ -82,13 +74,10 @@ and (max-width : 667px) {
 /* Upper Landing */
 
   .upperText {
-    /* display: inline-block; */
     position: absolute;
     top: 20%;
-    /* top: 10rem; */
     width: 100%;
-    font-size: 40px;
-    /*z-index: 9;*/
+    font-size: 44px;
   }
 
   .small{
@@ -97,18 +86,6 @@ and (max-width : 667px) {
 
 
 /* Services */
-
-  /* .serviceTwo, .serviceThree, .serviceFour{ */
-    /* width: 29%; */
-    /* border: 1px solid red; */
-    /* height: 10rem; */
-    /* display: inline-block; */
-  /* } */
-
-  /* .serviceGrouping {
-    position: relative;
-    border: 1px solid red;
-  } */
 
   .serviceTwo, .serviceThree, .serviceFour{
     display: block;
@@ -314,27 +291,34 @@ and (max-width : 667px) {
   height: 55rem;
 }
 
+.aboutText{
+  width: 90%;
+  margin: 0 auto;
+}
+
 .brianImg {
-  left: 7%;
-  top: 40%;
+  left: 34%;
+  top: 21%;
+  width: 30%;
 }
 
 .aboutBrian{
-  left: 31%;
-  bottom: 43%;
-  width: 63%;
+  left: 4%;
+  bottom: 44%;
+  width: 90%;
 }
 
 .sisterImg{
-  top: 72%;
-  right:78%;
+  top: 61%;
+  right:36%;
   height: 11%;
+  width: 30%;
 }
 
 .aboutSister{
-  width: 63%;
+  width: 90%;
   right:6%;
-  bottom: 10%;
+  bottom: 7%;
 }
 
 /* Contact Us */
