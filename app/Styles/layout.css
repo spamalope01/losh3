@@ -58,25 +58,20 @@ text-transform: uppercase;
 .upperText {
   position: absolute;
   top: 25%;
-  /* left:45%; */
-  /* right: 0%; */
   color: white;
   text-align: center;
   padding: 2px 16px;
   width: 100%;
   font-size: 70px;
-  /* font-size: 115px; */
 }
 
 .small{
   color: white;
   position: absolute;
   top: 40%;
-  /* right: 7.8%; */
   left: 34%;
   width: 75%;
   font-size: 33px;
-  /* margin-top: 2%; */
 }
 
 .learnMore {
@@ -89,10 +84,6 @@ text-transform: uppercase;
 .learnLink {
   text-decoration: none;
   color: grey;
-  /* position: absolute;
-  bottom: 4.5%;
-    left: 48.5%; */
-
 }
 
 .moreIcon {
@@ -104,7 +95,6 @@ text-transform: uppercase;
 
 .moreDown {
   position: absolute;
-  /* bottom: 0%; */
   left: 50%;
 }
 
@@ -170,7 +160,6 @@ label {
 
 .projectsContainer {
   position: relative;
-  /* right: 3.5%; */
   margin-left: 2%;
   display: grid;
   grid-template-columns: repeat(16, 200px);
@@ -264,16 +253,12 @@ label {
 
 .testimonialWrapper {
   margin-top: 4%;
-  /* display: grid; */
-  /* grid-template-columns: repeat(12, 200px); */
   margin-bottom: 4rem;
 }
 
 .testimony1, .testimony2, .testimony3 {
   display: inline-block;
   width: 30%;
-  /* margin-left: 3%; */
-  /* grid-column: 5 / 6; */
 }
 
 .testimony1{
@@ -303,8 +288,9 @@ label {
 
 .serviceImage {
   display: inline-block;
-  width: 40%;
+  width: 80%;
   margin-bottom: 8%;
+  border-radius: 5%;
 }
 
 .svcTitle{
@@ -326,6 +312,11 @@ label {
 
 .landDev{
   padding-left: 3%;
+}
+
+.commImg {
+  height: 11.5rem;
+  margin-right: 9%;
 }
 
 .serviceUL {
@@ -387,14 +378,17 @@ label {
 /* Copntact */
 
 .contactText{
-  margin-top: 4%;
+  margin-top: 2%;
   text-align: center;
 }
-
 
 .contactWrapper {
   display: grid;
   grid-template-columns: repeat(12, 200px);
+}
+
+.contactForm {
+  padding-left: 8%;
 }
 
 .contactUs {
@@ -416,8 +410,6 @@ label {
 .footerAddy{
   float: left;
   margin-left: 10%;
-  /* position: absolute;
-  left: 5%; */
   display: inline-block;
 }
 

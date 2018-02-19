@@ -37,6 +37,7 @@ header {
 .ourWork {
   position: relative;
   background: #F0F0F0;
+  height: 70rem;
 }
 
 .aboutUs {
@@ -69,4 +70,8 @@ footer {
   width: 36px;
   right: 2%;
   bottom: 1%;
+}
+
+.aboutTop {
+  bottom: .5rem;
 }
