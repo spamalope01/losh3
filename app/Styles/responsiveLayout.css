@@ -87,53 +87,60 @@
 
 /* Services */
 
-  .serviceTwo, .serviceThree, .serviceFour{
+.ourServices{
+  height: 104rem;
+}
+
+  /* .serviceTwo, .serviceThree, .serviceFour{
     display: block;
     margin-left: 50%;
     /* margin-right: auto; */
   }
 
-  .serviceTwo{
-    position: absolute;
+ .serviceTwo, .serviceThree, .serviceFour{
+   width: 100vw;
+    /* position: absolute;
     top: 15%;
-    right: 45%
+    right: 45% */
   }
 
-  .serviceThree {
+  /* .serviceThree {
     position: absolute;
     top: 41%;
     right: 11%;
     width: 23em;
     margin: 0;
-  }
+  } */
 
-  .serviceThree ul {
+  /* .serviceThree ul {
     padding-right: 12%;
-  }
+  } */
 
-  .serviceFour ul {
+  /* .serviceFour ul {
     padding-right: 12%;
-  }
+  } */
 
-  .serviceFour{
+  /* .serviceFour{
     position: absolute;
     float: none;
     margin: 0;
     top: 71%;
     right: 49.5%;
-  }
-
+  } */
+/*
   .fourText{
     width: 15em;
-  }
+  } */ */
 
-  .serviceImage {
-    position: absolute;
+  /* .serviceImage {
+    /* position: absolute;
     right: 110%;
-    width: 45%;
-  }
+    width: 45%; */
+    /* margin-left: 45%; */
+    /* width: 100%; */
+  } */
 
-  .commImg{
+  /* .commImg{
     position: absolute;
     right: 100%;
   }
@@ -142,17 +149,17 @@
     position: absolute;
     right: 92%;
     width: 13%;
-  }
+  } */
 
-  .serviceWrapper{
+  /* .serviceWrapper{
     /* border: 1px solid black; */
-    position: absolute;
-    width:14rem;
-  }
+    /* position: absolute; */
+    /* width:14rem; */
+  } */
 
-  .serviceWrapper3 {
+  /* .serviceWrapper3 {
     width: 25rem;
-  }
+  } */
 
 /* Our Work */
 .ourWork{
@@ -174,7 +181,7 @@
   left: 12%;
   width: 80%;
   height: 17rem;
-  background: url("../Images/home.jpg") no-repeat;
+  background: url("../Images/NorkirkDev.png") no-repeat;
   background-size: cover;
 }
 
@@ -190,7 +197,7 @@
   position: absolute;
   top: 39%;
   left: 12%;
-  background: url("../Images/us.jpg") no-repeat;
+  background: url("../Images/WilliamsRes.png") no-repeat;
   background-size: cover;
   width: 80%;
   height: 17rem;
@@ -205,7 +212,7 @@
 
 .proj3{
   position: absolute;
-  background: url("../Images/livingroom.jpg") no-repeat;
+  background: url("../Images/KentCommercial.png") no-repeat;
   background-size: cover;
   width: 80%;
   top: 68%;
@@ -222,7 +229,7 @@
 
 .proj4 {
   position: absolute;
-  background: url("../Images/home.jpg") no-repeat;
+  background: url("../Images/GamrothRemodel.png") no-repeat;
   background-size: cover;
   width: 80%;
   top: 65%;
@@ -239,7 +246,7 @@
 
 /* .proj5{
   position: absolute;
-  background: url("../Images/you.jpg") no-repeat;
+  background: url("../Images/DevonshirePointe.png") no-repeat;
   background-size: cover;
   width: 80%;
   height: 17rem;
