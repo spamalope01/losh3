@@ -252,68 +252,6 @@ label {
   padding-left: 3%;
 } */
 
-/* Services */
-
-.serviceGrouping {
-  padding-top: 3%;
-}
-
-.serviceTwo, .serviceThree, .serviceFour{
-  width: 20%;
-  display: inline-block;
-  margin-left: 3%;
-  margin-top: 5%;
-}
-
-.serviceTwo {
-  float: left;
-}
-
-.serviceImage {
-  display: inline-block;
-  width: 80%;
-  margin-bottom: 8%;
-  border-radius: 5%;
-}
-
-.svcTitle{
-  display:inline;
-  font-size: 2em;
-  padding-left: 15%;
-  width: 10%;
-  margin-top: 2%;
-}
-
-.serviceText {
-  text-align: center;
-  padding-right: 12%;
-}
-
-.landImg {
-  margin-right: 8%;
-}
-
-.landDev{
-  padding-left: 3%;
-}
-
-.commImg {
-  height: 11.5rem;
-  margin-right: 9%;
-}
-
-.serviceUL {
-  list-style: none;
-}
-
-.serviceFour{
-  float: right;
-  margin-right: 2rem;
-}
-
-.serviceUL li {
-  margin-top: 4.5%;
-}
 
 /* About */
 
