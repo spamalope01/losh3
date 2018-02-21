@@ -1,0 +1,207 @@
+.stickyNav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  height: 7em;
+  border-bottom: 1px solid #fff;
+}
+
+
+.globalNav {
+  right: 5px;
+  float: right;
+  list-style: none;
+  margin:0;
+  padding:0;
+  color: white;
+  width: auto;
+  height: 2em;
+  background:rgba(0,0,0,0);
+}
+
+.darkNav {
+  background: rgba(0,0,0,.75);
+}
+
+.globalNav li {
+margin: 0, auto;
+display: inline;
+font-size: 1em;
+line-height: 1;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.globalNav li a {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 0.625em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  width: 6rem;
+}
+
+.upperText {
+  position: absolute;
+  top: 25%;
+  color: white;
+  text-align: center;
+  padding: 2px 16px;
+  width: 100%;
+  font-size: 70px;
+}
+
+.small{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  width: 75%;
+  font-size: 33px;
+}
+
+.learnMore {
+  color: grey;
+  position: absolute;
+  bottom: 4.5%;
+    left: 48.5%;
+}
+
+.learnLink {
+  text-decoration: none;
+  color: grey;
+}
+
+.moreIcon {
+  position: absolute;
+  left: 35%;
+  margin-bottom: 0.4%;
+  display: inline-block;
+}
+
+.moreDown {
+  position: absolute;
+  left: 50%;
+}
+
+
+
+
+/* Mobile */
+ @media only screen and (max-width: 667px) {
+
+   .globalNav{
+     display: none;
+   }
+
+   .stickyNav {
+     height: 10rem;
+   }
+
+   .mobileNav {
+     display: inline-block;
+     position: absolute;
+     list-style: none;
+     bottom: 0%;
+     right: 0%;
+     width: 100%;
+     margin:0;
+     padding:0;
+     color: white;
+     height: 2em;
+   }
+
+   .mobileNav li{
+     margin: 0, auto;
+     display: inline;
+     font-size: 1em;
+     line-height: 1;
+     text-decoration: none;
+     text-transform: uppercase;
+   }
+
+   .workNav {
+     position: absolute;
+     right: 80%;
+   }
+
+   .aboutNav{
+     position: absolute;
+     left: 45%;
+   }
+
+   .contactNav {
+     position: absolute;
+     left: 75%;
+   }
+
+   .mobileNav li a {
+     display: inline-block;
+     padding: 0.625em;
+     color: #fff;
+     text-decoration: none;
+
+   }
+
+   .logo{
+     position: static;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 6rem;
+   }
+
+
+ /* Upper Landing */
+
+   .upperText {
+     position: absolute;
+     top: 20%;
+     width: 100%;
+     font-size: 44px;
+   }
+
+   .small{
+     top: 35%;
+     left: 0;
+     margin-left: 6%;
+     width: 90%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
