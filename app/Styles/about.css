@@ -1,0 +1,53 @@
+.aboutText {
+  max-width: 70rem;
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.6;
+}
+
+
+@media only screen and (max-width: 667px) {
+  .aboutUs{
+    height: 25rem;
+  }
+
+  .aboutText{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2.6;
+  }
+
+/* Team info to be added later */
+
+  /* .brianImg {
+    left: 34%;
+    top: 21%;
+    width: 30%;
+  }
+
+  .aboutBrian{
+    left: 4%;
+    bottom: 44%;
+    width: 90%;
+  }
+
+  .sisterImg{
+    top: 61%;
+    right:36%;
+    height: 11%;
+    width: 30%;
+  }
+
+  .aboutSister{
+    width: 90%;
+    right:6%;
+    bottom: 7%;
+  } */
+
+
+
+
+
+
+}
