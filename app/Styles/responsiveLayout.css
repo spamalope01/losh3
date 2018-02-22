@@ -82,11 +82,11 @@
 
 
 /* Our Work */
-.ourWork{
+/* .ourWork{
   height: 110rem;
   /* height: 90rem; */
-}
-
+/* } */
+/*
 .mobileWork {
   display: inline-block;
 }
@@ -162,7 +162,7 @@
   top: 77%;
   left: 12%;
   width: 81%;
-}
+} */
 
 /* .proj5{
   position: absolute;
@@ -187,7 +187,7 @@
 
 
 /* Testimonials */
-
+/*
 .testimonials{
   height: 50rem;
 }
@@ -209,12 +209,12 @@
  .testimony3{
    top: 74%;
    right: 34%
- }
+ } */
 
 
 /* About Us */
 
-.aboutUs{
+/* .aboutUs{
   height: 55rem;
 }
 
@@ -246,7 +246,7 @@
   width: 90%;
   right:6%;
   bottom: 7%;
-}
+} */
 
 /* Contact Us */
 .contactInvite{

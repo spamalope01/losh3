@@ -1,4 +1,4 @@
-.stickyNav {
+/* .stickyNav {
   display: block;
   position: fixed;
   width: 100%;
@@ -96,7 +96,7 @@ text-transform: uppercase;
 .moreDown {
   position: absolute;
   left: 50%;
-}
+} */
 
 label, textarea {
   display: block;
@@ -123,7 +123,7 @@ label {
 
 /* Projects */
 
-.mobileWork {
+/* .mobileWork {
   display: none;
 }
 
@@ -147,10 +147,10 @@ label {
   grid-template-columns: repeat(16, 200px);
   grid-template-rows: repeat(16, 50px);
   grid-gap: 2px;
-}
+} */
 
 
-.mainProj {
+/* .mainProj {
   grid-column: 1 / 5;
   grid-row: 1 / 16;
   border: 1px solid black;
@@ -178,7 +178,6 @@ label {
   border: 1px solid black;
   grid-column: 7 / 9;
   grid-row: 1 / 8;
-  /* background: url("../Images/GamrothRemodel.png") no-repeat; */
   background: url("../Images/DevonshirePointe.png") no-repeat;
   background-size: cover;
 }
@@ -187,7 +186,6 @@ label {
   border: 1px solid black;
   grid-column: 7 / 9;
   grid-row: 8 / 16;
-  /* background: url("../Images/DevonshirePointe.png") no-repeat; */
   background: url("../Images/GamrothRemodel.png") no-repeat;
   background-size: cover;
 }
@@ -200,9 +198,9 @@ label {
   background-color: rgba(0,0,0,0.75);
   z-index: 2;
   cursor: pointer;
-}
+} */
 
-.middText {
+/* .middText {
   display: inline-block;
   padding-top: 32%;
   width: 90%;
@@ -222,7 +220,7 @@ label {
   height: 100%;
   width: 100%;
   color: white;
-}
+} */
 
 /* Testimonials */
 
@@ -255,13 +253,13 @@ label {
 
 /* About */
 
-.aboutText {
+/* .aboutText {
   max-width: 70rem;
   margin-top: 4%;
   margin-left: 20%;
   margin-right: 20%;
   line-height: 1.6;
-}
+} */
 /*
 .aboutBrian{
   position: absolute;
