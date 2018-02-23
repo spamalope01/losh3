@@ -188,6 +188,7 @@ text-transform: uppercase;
    }
 
    .small{
+     text-align: center;
      top: 35%;
      left: 0;
      margin-left: 6%;
