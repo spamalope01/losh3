@@ -111,20 +111,23 @@ text-transform: uppercase;
  /* @media only screen and (max-width: 667px) { */
 
 
- @media only screen and (min-device-width : 414px)
- and (max-device-width : 736px) {
+ @media only screen
+   and (max-width: 667px)
+   and (-webkit-min-device-pixel-ratio: 3){
+
    .landingUpper {
-     /* background: red; */
-     /* background: url('../Images/newBackground.jpg') no-repeat fixed; */
      background: url('../Images/newBackground.jpg') no-repeat fixed;
-/* -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover; */
+     -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
      height: 100vh;
      position: relative;
      width: 100%;
-     /* min-height: 350px; */
    }
 
 
@@ -186,7 +189,7 @@ background-size: cover; */
      padding: 0.625em;
      color: #fff;
      text-decoration: none;
-
+    font-size: .75rem;
    }
 
    .logo{
