@@ -25,6 +25,8 @@ header {
   text-align: center;
   margin-top: 4rem;
   padding-bottom: 5rem;
+  height: 40rem;
+  /* overflow: auto; */
 }
 
 .testimonials {

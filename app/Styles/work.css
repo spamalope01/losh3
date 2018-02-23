@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 667px) {
   .ourWork{
-    height: 120rem;
+    height: 130rem;
  }
 
  hr {
@@ -116,7 +116,7 @@
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1.5em 9% 1.5em;
+    margin: 1.75em 9% 1.5em;
     padding: 0;
     width: 80%;
  }
@@ -142,15 +142,16 @@
 
   .mainDesc {
     position: absolute;
-    top: 27%;
+    top: 25%;
     left: 0;
     right: 0;
     color: #000;
+    line-height: 1.6;
   }
 
   .proj2 {
     position: absolute;
-    top: 33%;
+    top: 34%;
     left: 0;
     background: url("../Images/WilliamsRes.png") no-repeat;
     background-size: cover;
@@ -160,11 +161,12 @@
 
   .proj2Desc{
     position: absolute;
-    top: 48.5%;
+    top: 49.5%;
     left: 0;
     right: 0;
     margin-left: 1%;
     margin-right: 1%;
+    line-height: 1.6;
   }
 
   .proj3{
@@ -172,15 +174,16 @@
     background: url("../Images/KentCommercial.png") no-repeat;
     background-size: cover;
     width: 100%;
-    top: 53%;
+    top: 56.5%;
     left: 0;
     height: 17rem;
   }
 
   .proj3Desc{
     position: absolute;
-    top: 69%;
+    top: 72%;
     left: 0;
+    line-height: 1.6;
   }
 
   .proj4 {
@@ -188,17 +191,18 @@
     background: url("../Images/GamrothRemodel.png") no-repeat;
     background-size: cover;
     width: 100%;
-    top: 73%;
+    top: 78%;
     left: 0;
     height: 17rem;
   }
 
   .proj4Desc{
     position: absolute;
-    top: 89%;
+    top: 93%;
     left: 0;
     margin-left: 1%;
     margin-right: 1%;
+    line-height: 1.6;
 
   }
 
