@@ -111,8 +111,20 @@ text-transform: uppercase;
  /* @media only screen and (max-width: 667px) { */
 
 
- @media only screen and (min-device-width : 414px) 
+ @media only screen and (min-device-width : 414px)
  and (max-device-width : 736px) {
+   .landingUpper {
+     background: url('../Images/newBackground.jpg') no-repeat fixed;
+     background-size: cover;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     min-height: 350px;
+   }
+
+
+
+
    .globalNav{
      display: none;
    }
