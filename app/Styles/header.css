@@ -110,22 +110,22 @@ text-transform: uppercase;
 /* Mobile */
 
 
- /* .landingUpper {
- background: url('../Images/newBackground.jpg') no-repeat fixed;
- -webkit-background-size: 100%;
- -moz-background-size: 100%;
- -o-background-size: 100%;
- background-size: 100%;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- height: 100vh;
- position: relative;
- width: 100%;
- } */
  /* Mobile */
  @media only screen and (max-width: 480px) {
+ .landingUpper {
+   background: url('../Images/newBackground.jpg') no-repeat fixed;
+   -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: 100%;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   width: 100%;
+ }
 
    .globalNav{
      display: none;
@@ -199,16 +199,17 @@ text-transform: uppercase;
 
    .upperText {
      position: absolute;
-     top: 20%;
+     top: 30%;
      width: 100%;
      font-size: 44px;
    }
 
    .small{
-     top: 35%;
-     left: 0;
-     margin-left: 6%;
-     width: 90%;
+     top: 45%;
+     left: 13%;
+     /* margin-left: 6%; */
+     width: 80%;
+     text-align: center;
    }
 
 
