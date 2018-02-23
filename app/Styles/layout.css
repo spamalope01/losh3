@@ -98,7 +98,7 @@ text-transform: uppercase;
   left: 50%;
 } */
 
-label, textarea {
+/* label, textarea {
   display: block;
 }
 
@@ -115,7 +115,7 @@ label {
   background-clip: padding-box;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: .25rem;
-}
+} */
 
 .address, .phone, .email {
   margin-left: 5%;
@@ -296,7 +296,7 @@ label {
 
 /* Copntact */
 
-.contactText{
+/* .contactText{
   margin-top: 2%;
   text-align: center;
 }
@@ -312,7 +312,7 @@ label {
 
 .contactUs {
   grid-column: 3 / 7;
-}
+} */
 
 /* Footer */
 

@@ -58,6 +58,7 @@ text-transform: uppercase;
 .upperText {
   position: absolute;
   top: 25%;
+  /* top: 33%; */
   color: white;
   text-align: center;
   padding: 2px 16px;
@@ -134,19 +135,25 @@ text-transform: uppercase;
      text-transform: uppercase;
    }
 
+   .svcsNav{
+     position: absolute;
+     left: 4%;
+   }
+
    .workNav {
      position: absolute;
-     right: 80%;
+     left: 27.5%;
    }
 
    .aboutNav{
      position: absolute;
-     left: 45%;
+     /* left: 40%; */
+     right: 32%
    }
 
    .contactNav {
      position: absolute;
-     left: 75%;
+     right: 5%;
    }
 
    .mobileNav li a {

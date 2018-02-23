@@ -1,0 +1,61 @@
+label, textarea {
+  display: block;
+}
+
+label {
+  margin: 1rem 0 .2rem 0;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.contactText{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.contactWrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 200px);
+}
+
+.contactForm {
+  padding-left: 8%;
+}
+
+.contactUs {
+  grid-column: 3 / 7;
+}
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 667px) {
+.contactInvite{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.contactWrapper{
+  grid-template-columns: repeat(4, 250px);
+}
+
+.contactUs{
+  grid-column: 1 / 3;
+}
+
+.contactForm{
+  width: 100%;
+  margin-left: 3%;
+}
+}

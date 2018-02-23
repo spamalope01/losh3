@@ -1,0 +1,61 @@
+.footerLogo{
+  display: block;
+  position: absolute;
+  left: 3%;
+  top: 18%;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  width: 6rem;
+}
+
+.footerAddy{
+  float: left;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.socials {
+  line-height: 40px;
+  margin-top: auto;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.socMedia {
+  width: 27px;
+  margin: 0 0 0 8.91px;
+}
+
+.footerCopy {
+  display: inline-block;
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+}
+
+.address, .phone, .email {
+  margin-left: 5%;
+}
+
+
+
+
+/* Mobile */
+
+ @media only screen and (max-width: 667px) {
+   footer {
+     height: 20rem;
+   }
+
+   .footerLogo {
+     top: 5%;
+   }
+
+   .footerAddy{
+     margin-top: 20%;
+     margin-left: 2%;
+   }
+
+
+ }
