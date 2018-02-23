@@ -116,7 +116,7 @@ text-transform: uppercase;
    .landingUpper {
      /* background: red; */
      /* background: url('../Images/newBackground.jpg') no-repeat fixed; */
-     background: url('../Images/landDev.jpg') no-repeat fixed;
+     background: url('../Images/newBackground.jpg') no-repeat fixed;
      background-size: 100%;
      height: 100vh;
      position: relative;
