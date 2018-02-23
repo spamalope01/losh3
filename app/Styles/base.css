@@ -12,7 +12,7 @@ header {
 }
 
 .landingUpper {
-  background: url('Images/newBackground.jpg') no-repeat fixed;
+  background: url('/Images/newBackground.jpg') no-repeat fixed;
   background-size: cover;
   height: 100vh;
   position: relative;
