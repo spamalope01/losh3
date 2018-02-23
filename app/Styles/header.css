@@ -113,18 +113,18 @@ text-transform: uppercase;
  /* Mobile */
  @media only screen and (max-width: 480px) {
  .landingUpper {
-   background: url('../Images/newBackground.jpg') no-repeat center center fixed;
+   /* background: url('../Images/newBackground.jpg') no-repeat fixed; */
    -webkit-background-size: 100%;
    -moz-background-size: 100%;
    -o-background-size: 100%;
-   background-size: 100%;
+   background-size: 30%;
    /* -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover; */
    /* height: 100vh; */
    position: relative;
-   width: 100%;
+   /* width: 100%; */
  }
 
    .globalNav{
