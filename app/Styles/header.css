@@ -108,30 +108,24 @@ text-transform: uppercase;
 
 
 /* Mobile */
- /* @media only screen and (max-width: 667px) { */
 
 
- @media only screen
-   and (max-width: 667px)
-   and (-webkit-min-device-pixel-ratio: 3){
-
-   .landingUpper {
-     background: url('../Images/newBackground.jpg') no-repeat fixed;
-     -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-     height: 100vh;
-     position: relative;
-     width: 100%;
-   }
-
-
-
+ /* .landingUpper {
+ background: url('../Images/newBackground.jpg') no-repeat fixed;
+ -webkit-background-size: 100%;
+ -moz-background-size: 100%;
+ -o-background-size: 100%;
+ background-size: 100%;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 100vh;
+ position: relative;
+ width: 100%;
+ } */
+ /* Mobile */
+ @media only screen and (max-width: 480px) {
 
    .globalNav{
      display: none;
@@ -164,32 +158,32 @@ text-transform: uppercase;
    }
 
    .svcsNav{
-     position: absolute;
-     left: 4%;
-   }
+        position: absolute;
+        left: 4%;
+      }
 
-   .workNav {
-     position: absolute;
-     left: 27.5%;
-   }
+      .workNav {
+        position: absolute;
+        left: 27.5%;
+      }
 
-   .aboutNav{
-     position: absolute;
-     /* left: 40%; */
-     right: 32%
-   }
+      .aboutNav{
+        position: absolute;
+        /* left: 40%; */
+        right: 32%
+      }
 
-   .contactNav {
-     position: absolute;
-     right: 5%;
-   }
+      .contactNav {
+        position: absolute;
+        right: 5%;
+      }
 
    .mobileNav li a {
      display: inline-block;
      padding: 0.625em;
      color: #fff;
      text-decoration: none;
-    font-size: .75rem;
+     font-size: .75rem;
    }
 
    .logo{
@@ -211,12 +205,17 @@ text-transform: uppercase;
    }
 
    .small{
-     text-align: center;
      top: 35%;
      left: 0;
      margin-left: 6%;
      width: 90%;
    }
+
+
+
+
+
+
 
 
 
