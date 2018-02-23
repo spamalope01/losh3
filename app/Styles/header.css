@@ -116,14 +116,14 @@ text-transform: uppercase;
    .landingUpper {
      /* background: red; */
      /* background: url('../Images/newBackground.jpg') no-repeat fixed; */
-     background: url('../Images/newBackground.jpg') no-repeat center center fixed;
--webkit-background-size: cover;
+     background: url('../Images/newBackground.jpg') no-repeat fixed;
+/* -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
-     /* height: 100vh; */
+background-size: cover; */
+     height: 100vh;
      position: relative;
-     /* width: 100%; */
+     width: 100%;
      /* min-height: 350px; */
    }
 
