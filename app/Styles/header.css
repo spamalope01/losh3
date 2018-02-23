@@ -99,6 +99,11 @@ text-transform: uppercase;
   left: 50%;
 }
 
+#services{
+  position: absolute;
+  bottom: 10%;
+}
+
 
 
 
