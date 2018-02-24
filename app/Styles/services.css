@@ -96,13 +96,14 @@ left: 4%;
  @media only screen and (max-width: 480px) {
 
 .ourServices{
-  height: 115rem;
+  height: 100rem;
+  margin-top: 2rem;
   /* height: 118rem; */
 }
 
   .serviceTwo {
     position: absolute;
-    top: 6%;
+    top: 7%;
     right: 0%;
     width: 100%;
     margin: 0;
@@ -110,7 +111,7 @@ left: 4%;
 
   .serviceThree {
     position: absolute;
-    top: 34%;
+    top: 38%;
     right: 0%;
     width: 100%;
     margin: 0;
@@ -122,7 +123,7 @@ left: 4%;
     float: none;
     width: 100%;
     margin: 0;
-    top: 61%;
+    top: 68%;
     right: 0%;
   }
 
@@ -154,6 +155,10 @@ left: 4%;
   width: 80%;
   left: 8%;
   line-height: 1.6;
+}
+
+.fourText{
+  width: 86%;
 }
 
 .svcTop {
