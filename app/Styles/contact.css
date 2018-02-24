@@ -59,4 +59,10 @@ label {
   margin-left: 3%;
 }
 
+#sentMessage {
+  display: block;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+
 }
