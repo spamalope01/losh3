@@ -41,6 +41,8 @@ $(window).scroll(function() {
           $('#sentMessage').empty().html(
             'Your email has been sent.  Thank you!  We will be in touch soon.'
           );
+        } else{
+          console.log(err);
         }
       });
     });
