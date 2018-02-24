@@ -112,6 +112,9 @@ text-transform: uppercase;
 
  /* Mobile */
  @media only screen and (max-width: 480px) {
+
+html{height:100%,width:100%}
+
  .landingUpper {
    background: url('../Images/newBackground.jpg') no-repeat fixed;
    /* -webkit-background-size: 100%;
