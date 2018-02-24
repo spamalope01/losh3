@@ -131,7 +131,7 @@
 
   .mainProj {
     position: absolute;
-    top: 7%;
+    top: 5%;
     left: 0;
     right: 0;
     width: 100%;
@@ -142,7 +142,7 @@
 
   .mainDesc {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 0;
     right: 0;
     color: #000;
@@ -151,7 +151,7 @@
 
   .proj2 {
     position: absolute;
-    top: 32%;
+    top: 30.5%;
     left: 0;
     background: url("../Images/WilliamsRes.png") no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@
 
   .proj2Desc{
     position: absolute;
-    top: 47.5%;
+    top: 44.5%;
     left: 0;
     right: 0;
     margin-left: 1%;
@@ -174,14 +174,14 @@
     background: url("../Images/KentCommercial.png") no-repeat;
     background-size: cover;
     width: 100%;
-    top: 55.5%;
+    top: 54%;
     left: 0;
     height: 17rem;
   }
 
   .proj3Desc{
     position: absolute;
-    top: 70%;
+    top: 67.5%;
     left: 0;
     line-height: 1.6;
   }
@@ -191,14 +191,14 @@
     background: url("../Images/GamrothRemodel.png") no-repeat;
     background-size: cover;
     width: 100%;
-    top: 77%;
+    top: 75%;
     left: 0;
     height: 17rem;
   }
 
   .proj4Desc{
     position: absolute;
-    top: 91%;
+    top: 88.5%;
     left: 0;
     margin-left: 1%;
     margin-right: 1%;
