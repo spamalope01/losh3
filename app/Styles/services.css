@@ -134,7 +134,7 @@ left: 4%;
 }
 
 .commImg {
-  height: 27em;
+  height: 17em;
 }
 
 .svcTitle {
@@ -157,9 +157,15 @@ left: 4%;
   line-height: 1.6;
 }
 
-.fourText{
-  width: 86%;
+.commPara {
+  left: 0;
+  margin: 5% auto;
+  width: 95%;
 }
+
+/* .fourText{
+  width: 86%;
+} */
 
 .svcTop {
   bottom: 0%;
