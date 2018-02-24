@@ -122,11 +122,11 @@ html{height:100%,width:100%}
    -o-background-size: 100%;
    background-size: 100%;
    /* background-position: center center; */
-   background-repeat: no-repeat;
+   -webkit-background-repeat: no-repeat;
    /* background-attachment: fixed; */
    /* background-size: 100%; */
    background-color: #464646;
-   min-height: 100vh;
+   -webkit-min-height: 100vh;
    /* overflow: hidden; */
    position: relative;
  }
