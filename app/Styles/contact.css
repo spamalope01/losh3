@@ -47,7 +47,7 @@ label {
 }
 
 .contactWrapper{
-  grid-template-columns: repeat(4, 250px);
+  grid-template-columns: repeat(4, 150px);
 }
 
 .contactUs{
@@ -58,4 +58,5 @@ label {
   width: 100%;
   margin-left: 3%;
 }
+
 }
