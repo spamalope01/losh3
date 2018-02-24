@@ -117,20 +117,15 @@ html{height:100%,width:100%}
 
  .landingUpper {
    background: url('../Images/newBackground.jpg');
-   /* -webkit-background-size: cover;
+   -webkit-background-size: cover;
    -moz-background-size: 100%;
    -o-background-size: 100%;
    background-size: 100%;
-   -webkit-mask-composite: source-over;
-   -webkit-background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
    background-color: #464646;
    min-height: 100vh;
-   position: relative; */
-   position: fixed;
-   top: 0;
-   left: 0;
-   min-width: 100%;
-   min-height: 100%;
+   position: relative;
  }
 
    .globalNav{
