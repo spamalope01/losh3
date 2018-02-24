@@ -27,7 +27,7 @@ $(window).scroll(function() {
       mail.$email = $('.contactForm input[name=email]').val();
       mail.$phone = $('.contactForm input[name=phone]').val();
       mail.$message = $('.contactForm textarea[name=message]').val();
-      $.get("https://loshengineering.herokuapp.com/send", {
+      $.get("https://loshtest.herokuapp.com/send", {
         from: mail.$from,
         phone: mail.$phone,
         email: mail.$email,
