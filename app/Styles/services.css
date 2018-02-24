@@ -96,13 +96,13 @@ left: 4%;
  @media only screen and (max-width: 480px) {
 
 .ourServices{
-  height: 105rem;
+  height: 110rem;
   /* height: 118rem; */
 }
 
   .serviceTwo {
     position: absolute;
-    top: 7%;
+    top: 6%;
     right: 0%;
     width: 100%;
     margin: 0;
@@ -110,7 +110,7 @@ left: 4%;
 
   .serviceThree {
     position: absolute;
-    top: 35%;
+    top: 38%;
     right: 0%;
     width: 100%;
     margin: 0;
@@ -122,7 +122,7 @@ left: 4%;
     float: none;
     width: 100%;
     margin: 0;
-    top: 60%;
+    top: 66%;
     right: 0%;
   }
 
