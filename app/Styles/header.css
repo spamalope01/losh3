@@ -117,14 +117,14 @@ html{height:100%,width:100%}
 
  .landingUpper {
    background: url('../Images/newBackground.jpg');
-   /* -webkit-background-size: 100%;
+   -webkit-background-size: 100%;
    -moz-background-size: 100%;
    -o-background-size: 100%;
    background-size: 100%; */
    /* background-position: center center; */
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-size: 100%;
+   /* background-size: 100%; */
    background-color: #464646;
    min-height: 100vh;
    /* overflow: hidden; */
