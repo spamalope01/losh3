@@ -113,7 +113,7 @@ text-transform: uppercase;
  /* Mobile */
  @media only screen and (max-width: 480px) {
  .landingUpper {
-   background: red;
+   background: url('../Images/newBackground.jpg') no-repeat fixed;
    /* -webkit-background-size: 100%;
    -moz-background-size: 100%;
    -o-background-size: 100%;
