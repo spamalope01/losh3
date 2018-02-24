@@ -93,7 +93,7 @@ left: 4%;
 
 
 /* Mobile */
- @media only screen and (max-width: 650px){
+ @media only screen and (max-width: 480px) {
 
 .ourServices{
   height: 130rem;
