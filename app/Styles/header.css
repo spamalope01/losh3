@@ -22,6 +22,15 @@
 
 .darkNav {
   background: rgba(0,0,0,.75);
+  height: 4em;
+}
+
+.darkNavLogo {
+  width: 2.5rem;
+  display: block;
+  position: absolute;
+  left: 1%;
+  top: 15%;
 }
 
 .globalNav li {
@@ -61,7 +70,7 @@ text-transform: uppercase;
   /* top: 33%; */
   color: white;
   text-align: center;
-  padding: 2px 16px;
+  /* padding: 2px 16px; */
   width: 100%;
   font-size: 70px;
 }
@@ -71,7 +80,7 @@ text-transform: uppercase;
   position: absolute;
   top: 40%;
   left: 34%;
-  width: 75%;
+  /* width: 75%; */
   font-size: 33px;
 }
 
@@ -79,7 +88,7 @@ text-transform: uppercase;
   color: grey;
   position: absolute;
   bottom: 4.5%;
-    left: 48.5%;
+  left: 48.5%;
 }
 
 .learnLink {
@@ -107,6 +116,8 @@ text-transform: uppercase;
 
 
 
+
+
 /* Mobile */
 
 
@@ -116,7 +127,7 @@ text-transform: uppercase;
 html{height:100%,width:100%}
 
  .landingUpper {
-   background: url('../Images/newBackground.jpg');
+   background: url('../Images/newBackground_min.jpg');
    -webkit-background-size: cover;
    -moz-background-size: 100%;
    -o-background-size: 100%;

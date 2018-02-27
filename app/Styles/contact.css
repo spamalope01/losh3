@@ -36,6 +36,24 @@ label {
 }
 
 
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .contactWrapper {
+    display: block;
+  }
+
+  .contactUs {
+    left: 6%;
+    width: 80%;
+  }
+
+
+
+
+
+
+}
+
+
 /* Mobile */
 
  @media only screen and (max-width: 667px) {
