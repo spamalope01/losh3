@@ -2,9 +2,17 @@ $(window).scroll(function() {
   var scroll = $(window).scrollTop();
 
   if (scroll >= 50) {
+    $('.logo').hide();
+    $('.darkNavLogo').show();
     $('.stickyNav').addClass('darkNav');
+    // $('.logo').addClass('darkNavLogo');
+    // $(.'logo').removeClass('logo');
   } else {
     $('.stickyNav').removeClass('darkNav');
+    // $('.logo').removeClass('darkNavLogo');
+    $('.darkNavLogo').hide();
+    $('.logo').show();
+
   }
 });
 
@@ -78,6 +86,7 @@ $(window).scroll(function() {
 
 
 $(document).ready(function() {
+  $('.darkNavLogo').hide();
     mail.getForm();
     mail.showContact();
     mail.hideContact();
