@@ -140,7 +140,7 @@
     right: 0;
     width: 100%;
     height: 22rem;
-    background: url("../Images/NorkirkDev.png") no-repeat;
+    background: url("../Images/NorkirkDev_min.png") no-repeat;
     background-size: cover;
   }
 
@@ -157,7 +157,7 @@
     position: absolute;
     top: 32%;
     left: 0;
-    background: url("../Images/WilliamsRes.png") no-repeat;
+    background: url("../Images/WilliamsRes_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 17rem;
@@ -175,7 +175,7 @@
 
   .proj3{
     position: absolute;
-    background: url("../Images/KentCommercial.png") no-repeat;
+    background: url("../Images/KentCommercial_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     top: 55.4%;
@@ -192,7 +192,7 @@
 
   .proj4 {
     position: absolute;
-    background: url("../Images/GamrothRemodel.png") no-repeat;
+    background: url("../Images/GamrothRemodel_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     top: 76.5%;

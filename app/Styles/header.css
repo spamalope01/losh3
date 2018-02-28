@@ -169,6 +169,17 @@ html{height:100%,width:100%}
      text-transform: uppercase;
    }
 
+   /* .darkNavLogo {
+     position: static;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   } */
+
+   /* .mobileDarkNav {
+     height: 3rem;
+   } */
+
    .svcsNav{
         position: absolute;
         left: 4%;
@@ -204,6 +215,18 @@ html{height:100%,width:100%}
      margin-left: auto;
      margin-right: auto;
      width: 6rem;
+   }
+
+   .darkNavLogo {
+     position: static;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 2.5rem;
+   }
+
+   .darkNav {
+     height: 5.5rem;
    }
 
 
