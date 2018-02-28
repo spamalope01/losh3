@@ -100,11 +100,21 @@
 }
 
 
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .projectsContainer {
+    grid-template-columns: repeat(16, 145px);
+}
+
+.mid5 {
+  padding-top: 7%;
+}
+
+
+}
 
 
 
 
-/* Mobile */
 
 @media only screen and (max-width: 667px) {
   .ourWork{
