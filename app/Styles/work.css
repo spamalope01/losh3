@@ -120,7 +120,8 @@
 
 
 
-@media only screen and (max-width: 667px) {
+/* @media only screen and (max-width: 667px) { */
+@media only screen and (max-width: 480px){
   .ourWork{
     height: 132rem;
  }
