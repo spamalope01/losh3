@@ -35,6 +35,16 @@ label {
   grid-column: 3 / 7;
 }
 
+.contactBackTop{
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  /* position: absolute; */
+  width: 36px;
+  /* right: 2%;
+  bottom: 1%; */
+}
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .contactWrapper {
