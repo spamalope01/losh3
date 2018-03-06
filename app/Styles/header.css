@@ -36,7 +36,7 @@
 .globalNav li {
 margin: 0, auto;
 display: inline;
-font-size: 1em;
+font-size: 1.5em;
 line-height: 1;
 text-decoration: none;
 text-transform: uppercase;
@@ -64,23 +64,31 @@ text-transform: uppercase;
   width: 6rem;
 }
 
-.upperText {
+.heroText {
   position: absolute;
   top: 25%;
-  /* top: 33%; */
+  left: 33%;
+
   color: white;
   text-align: center;
-  /* padding: 2px 16px; */
+}
+
+.upperText {
+  /* position: absolute;
+  top: 25%;
+  color: white;
+  text-align: center; */
   width: 100%;
   font-size: 70px;
+  margin-bottom: 0;
 }
 
 .small{
   color: white;
-  position: absolute;
-  top: 40%;
-  left: 34%;
-  /* width: 75%; */
+  margin-top: 2%;
+  /* position: absolute; */
+  /* top: 40%;
+  left: 34%; */
   font-size: 33px;
 }
 
