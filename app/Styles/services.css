@@ -102,6 +102,12 @@ left: 4%;
  }
 }
 
+@media only screen and (min-width: 1601px) {
+  .commImg {
+    height: 12.5rem;
+  }
+}
+
 
 
 /* Mobile */

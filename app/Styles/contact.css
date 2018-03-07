@@ -56,12 +56,26 @@ label {
     width: 80%;
   }
 
+}
 
+@media only screen and (min-width: 1601px) {
+  .contactWrapper {
+    display: block;
+  }
 
+  .contactForm {
+    padding-left: 0;
+  }
 
-
+  .contactUs{
+    width: 70%;
+    margin: auto;
+  }
 
 }
+
+
+
 
 
 /* Mobile */
