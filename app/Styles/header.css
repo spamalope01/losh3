@@ -127,7 +127,7 @@ text-transform: uppercase;
     font-size: 1.2em;
   }
 
-]
+}
 
 
 
@@ -147,7 +147,6 @@ html{height:100%,width:100%}
    -moz-background-size: 100%;
    -o-background-size: 100%;
    background-size: cover;
-   /* background-attachment: scroll; */
    background-repeat: no-repeat;
    background-color: #464646;
    min-height: 100vh;
@@ -256,7 +255,7 @@ html{height:100%,width:100%}
    }
 
    .small{
-     top: 45%;
+     top: 50%;
      left: 13%;
      /* margin-left: 6%; */
      width: 80%;
