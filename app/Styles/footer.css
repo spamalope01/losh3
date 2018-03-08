@@ -39,16 +39,20 @@
 }
 
 
-@media only screen and (min-width: 1601px) {
+/* @media only screen and (min-width: 1601px) {
   footer{
     clear: both;
   }
 
-]
+] */
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: 1200px) {
+  footer{
+    clear: both;
+  }
+
   .footerCopy {
-    right: 40%;
+    right: 45%;
   }
 
   .footerAddy{
