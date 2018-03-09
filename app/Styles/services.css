@@ -88,6 +88,8 @@ left: 4%;
   bottom: 10%;
 }
 
+/* Smaller laptops */
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
  .commImg {
    height: 10.5rem;
@@ -102,9 +104,11 @@ left: 4%;
  }
 }
 
+/* Larger monitors */
+
 @media only screen and (min-width: 1601px) {
   .commImg {
-    height: 12.5rem;
+    height: 11.5rem;
   }
 }
 
