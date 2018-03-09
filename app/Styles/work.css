@@ -100,11 +100,11 @@
 }
 
 
-
+/* Really big monitors  */
 @media (min-width: 1601px) {
 
   .projectsContainer {
-    grid-template-columns: repeat(16, 145px);
+    grid-template-columns: repeat(16, 165px);
     grid-gap: 4px;
     margin-left: 1%;
   }
@@ -132,7 +132,7 @@
 
 }
 
-
+/* Smaller laptops */
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .projectsContainer {
     grid-template-columns: repeat(16, 145px);
@@ -151,8 +151,7 @@
 
 
 
-
-/* @media only screen and (max-width: 667px) { */
+/* Mobile */
 @media only screen and (max-width: 480px){
   .ourWork{
     height: 132rem;
