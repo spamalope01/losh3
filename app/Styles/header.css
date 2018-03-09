@@ -68,7 +68,6 @@ text-transform: uppercase;
   position: absolute;
   top: 25%;
   left: 33%;
-
   color: white;
   text-align: center;
 }
@@ -133,7 +132,6 @@ text-transform: uppercase;
 
 
 
-/* Mobile */
 
 
  /* Mobile */
@@ -247,18 +245,27 @@ html{height:100%,width:100%}
 
  /* Upper Landing */
 
+ .heroText {
+   position: absolute;
+   top: 20%;
+   left: 0;
+ }
+
    .upperText {
-     position: absolute;
-     top: 25%;
+     display: inline-block;
+     margin-right: 30%;
+     /* position: absolute; */
+     /* top: 25%; */
      width: 100%;
      font-size: 44px;
    }
 
    .small{
-     top: 50%;
-     left: 13%;
+     /* top: 50%;
+     left: 13%; */
+     padding-left: 10%;
      /* margin-left: 6%; */
-     width: 80%;
+     width: 81%;
      text-align: center;
    }
 
