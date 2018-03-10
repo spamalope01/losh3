@@ -285,9 +285,17 @@ html{height:100%,width:100%}
 
 
 
+   /* For IE */
+   @media all and (-ms-high-contrast: none), (-ms-high-contrast:active){
+     .learnMore {
+       margin-bottom: 24px;
+     }
 
+     .moreIcon {
+       margin-top: 32px;
+     }
 
-
+}
 
 
 
