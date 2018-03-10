@@ -92,7 +92,7 @@ left: 4%;
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
  .commImg {
-   height: 10.5rem;
+   height: 9rem;
  }
 
  .svcTitle{
@@ -108,7 +108,7 @@ left: 4%;
 
 @media only screen and (min-width: 1601px) {
   .commImg {
-    height: 11.5rem;
+    height: 12.5rem;
   }
 }
 

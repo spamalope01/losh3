@@ -126,6 +126,10 @@ text-transform: uppercase;
     font-size: 1.2em;
   }
 
+  .learnMore {
+    left: 46.5%;
+  }
+
 }
 
 
@@ -247,8 +251,8 @@ html{height:100%,width:100%}
 
  .heroText {
    position: absolute;
-   top: 30%;
-   left: 0;
+   top: 20%;
+   left
  }
 
    .upperText {

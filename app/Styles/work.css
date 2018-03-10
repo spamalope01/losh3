@@ -101,7 +101,7 @@
 
 
 /* Really big monitors  */
-@media (min-width: 1601px) {
+@media (min-width: 1681px) {
 
   .projectsContainer {
     grid-template-columns: repeat(16, 165px);
@@ -136,6 +136,7 @@
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .projectsContainer {
     grid-template-columns: repeat(16, 145px);
+    margin-left: 7%;
 }
 
 .mid5 {
