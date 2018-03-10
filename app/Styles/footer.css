@@ -2,7 +2,7 @@
   display: block;
   position: absolute;
   left: 3%;
-  top: 18%;
+  top: 10%;
   margin-top: 9px;
   margin-bottom: 10px;
   width: 6rem;
@@ -11,7 +11,16 @@
 .footerAddy{
   float: left;
   margin-left: 10%;
+  margin-top: 1%;
   display: inline-block;
+}
+
+.footerAddy p {
+  margin: .4em;
+}
+
+.addy {
+  width: 102%;
 }
 
 .socials {
@@ -55,9 +64,9 @@
     right: 45%;
   }
 
-  .footerAddy{
+  /* .footerAddy{
     margin-left: 12%;
-  }
+  } */
 
 }
 
