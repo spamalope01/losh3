@@ -5,13 +5,8 @@ $(window).scroll(function() {
     $('.logo').hide();
     $('.darkNavLogo').show();
     $('.stickyNav').addClass('darkNav');
-    // $('.mobileNav').addClass('mobileDarkNav');
-    // $('.logo').addClass('darkNavLogo');
-    // $(.'logo').removeClass('logo');
   } else {
     $('.stickyNav').removeClass('darkNav');
-    // $('.mobileNav').removeClass('mobileDarkNav');
-    // $('.logo').removeClass('darkNavLogo');
     $('.darkNavLogo').hide();
     $('.logo').show();
 

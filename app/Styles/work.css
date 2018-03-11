@@ -49,20 +49,10 @@
   background-size: cover;
 }
 
-/* .proj4 {
-  border: 1px solid black;
-  grid-column: 7 / 9;
-  grid-row: 1 / 8;
-  /* background: url("../Images/GamrothRemodel.png") no-repeat; */
-  /* background: url("../Images/DevonshirePointe.png") no-repeat; */
-  /* background-size: cover; */
-/* } */
-
 .proj5 {
   border: 1px solid black;
   grid-column: 7 / 9;
   grid-row: 8 / 16;
-  /* background: url("../Images/DevonshirePointe.png") no-repeat; */
   background: url("../Images/GamrothRemodel_min.png") no-repeat;
   background-size: cover;
 }
@@ -253,27 +243,9 @@
     left: 0;
     margin-left: 1%;
     margin-right: 1%;
-    /* martin-bottom: 3 */
     line-height: 1.6;
 
   }
-
-  /* .proj5{
-    position: absolute;
-    background: url("../Images/DevonshirePointe.png") no-repeat;
-    background-size: cover;
-    width: 80%;
-    height: 17rem;
-    top: 85%;
-    left: 12%;
-  }
-
-  .proj5Desc{
-    position: absolute;
-    top: 97%;
-    left: 12%;
-    width: 81%
-  } */
 }
 
 
