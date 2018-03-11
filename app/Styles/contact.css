@@ -47,7 +47,6 @@ label {
     font-style: bold;
     font-size: 2em;
     text-align: center;
-    padding-left: 0px;
 }
 
 
@@ -97,10 +96,9 @@ label {
   margin-left: 3%;
 }
 
-/* #sentMessage {
-  display: block;
-  margin-bottom: 10%;
-  margin-left: 5%;
-} */
+#sentMessage {
+  margin-left: 20%;
+  width: 90%;
+}
 
 }
