@@ -4,9 +4,7 @@ var port = process.env.PORT || 9000;
 var nodemailer = require('nodemailer');
 
 const password = require('./variables');
-// const user = require('.variables');
 let pass = password.password;
-// let  = user.user;
 
 app.use(express.static(__dirname + '/app'));
 
@@ -25,7 +23,7 @@ var smtpTransport = nodemailer.createTransport({
 
 app.get('/send', function(req, res) {
   var mailOptions={
-    to : user,
+    to : "brian@l2engineers.com",
     subject: "Inquiry about work.",
     from: req.query.email,
     phone: req.query.phone,
