@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 var smtpTransport = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "smtp.l2engineers.com",
   auth: {
     user: "brian@l2engineers.com",
     pass: pass
