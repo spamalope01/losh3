@@ -47,7 +47,7 @@ $(window).scroll(function() {
             'Your email has been sent.  Thank you!  We will be in touch soon.'
           );
         } else{
-          console.log('did not send');
+          console.log('did not send', err);
         }
       });
     });
