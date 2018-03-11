@@ -88,7 +88,6 @@ $(document).ready(function() {
     mail.showContact();
     mail.hideContact();
     $('.slideout').hide();
-    // mail.sendForm();
 });
 
 

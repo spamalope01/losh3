@@ -48,13 +48,6 @@
 }
 
 
-/* @media only screen and (min-width: 1601px) {
-  footer{
-    clear: both;
-  }
-
-] */
-
 @media only screen and (min-width: 1200px) {
   footer{
     clear: both;
@@ -63,10 +56,6 @@
   .footerCopy {
     right: 45%;
   }
-
-  /* .footerAddy{
-    margin-left: 12%;
-  } */
 
 }
 

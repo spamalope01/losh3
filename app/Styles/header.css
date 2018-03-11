@@ -124,12 +124,6 @@ text-transform: uppercase;
 
 }
 
-
-
-
-
-
-
  /* Mobile */
  @media only screen and (max-width: 480px) {
 
@@ -178,25 +172,24 @@ html{height:100%,width:100%}
    }
 
    .svcsNav{
-        position: absolute;
-        left: 4%;
+      position: absolute;
+      left: 4%;
       }
 
-      .workNav {
-        position: absolute;
-        left: 27.5%;
-      }
+    .workNav {
+      position: absolute;
+      left: 27.5%;
+    }
 
-      .aboutNav{
-        position: absolute;
-        /* left: 40%; */
-        right: 31%
-      }
+    .aboutNav{
+      position: absolute;
+      right: 31%
+    }
 
-      .contactNav {
-        position: absolute;
-        right: 5%;
-      }
+    .contactNav {
+      position: absolute;
+      right: 5%;
+    }
 
    .mobileNav li a {
      display: inline-block;
@@ -239,17 +232,12 @@ html{height:100%,width:100%}
    .upperText {
      display: inline-block;
      margin-right: 30%;
-     /* position: absolute; */
-     /* top: 25%; */
      width: 100%;
      font-size: 44px;
    }
 
    .small{
-     /* top: 50%;
-     left: 13%; */
      padding-left: 10%;
-     /* margin-left: 6%; */
      width: 81%;
      text-align: center;
    }
