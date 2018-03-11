@@ -76,7 +76,7 @@
  /* @media only screen and (max-width: 667px) { */
    @media only screen and (max-width: 480px){
    footer {
-     height: 20rem;
+     height: 14rem;
      clear: both;
    }
 
@@ -85,8 +85,12 @@
    }
 
    .footerAddy{
-     margin-top: 35%;
-     margin-left: 2%;
+     margin-top: 3%;
+     margin-left: 34%;
+   }
+
+   .footerCopy {
+     right: 30%;
    }
 
 
