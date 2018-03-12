@@ -16,6 +16,7 @@ app.get('/', function(req, res) {
 var smtpTransport = nodemailer.createTransport({
   host: "smtp-mail.outlook.com",
   secureConnection: false,
+  port: 587,
   auth: {
     user: "brian@l2engineers.com",
     pass: pass
@@ -26,6 +27,7 @@ var smtpTransport = nodemailer.createTransport({
 });
 
 app.get('/send', function(req, res) {
+  console.log('in the app.get /send');
   var mailOptions={
     to : "brian@l2engineers.com",
     subject: "Inquiry about work.",
