@@ -45,8 +45,8 @@ app.get('/send', function(req, res) {
     }
   });
   smtpTransport.sendMail(mailCopy, function(error, response){
-    console.log('in the sendmail');
-    console.log('mailCpy', mailCopy);
+    console.log('in the sendmail', mailCopy);
+    // console.log('mailCpy', mailCopy);
     if(error){
       console.log('there was a problem', error);
       res.end("error");
