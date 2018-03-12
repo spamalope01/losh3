@@ -38,7 +38,7 @@ app.get('/send', function(req, res) {
     text: "You submitted the following message to:  \n \n brian@l2engineers.com.  \n \n Your Message: \n \n " + req.query.text
   };
   smtpTransport.sendMail(mailOptions, function(error, response){
-    console.log('mailcopy', mailCopy);
+    console.log('in the first send', mailOptions);
     if(error){
       console.log('there was a problem', error);
       res.end("error");
@@ -48,7 +48,7 @@ app.get('/send', function(req, res) {
     }
   });
   smtpTransport.sendMail(mailCopy, function(error, response){
-    console.log('in the sendmail', mailCopy);
+    console.log('in the copy sendmail', mailCopy);
     // console.log('mailCpy', mailCopy);
     if(error){
       console.log('there was a problem', error);
