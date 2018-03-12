@@ -15,6 +15,7 @@ app.get('/', function(req, res) {
 
 var smtpTransport = nodemailer.createTransport({
   host: "smtp-mail.outlook.com",
+  secureConnection: false,
   auth: {
     user: "brian@l2engineers.com",
     pass: pass
