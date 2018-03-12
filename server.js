@@ -35,7 +35,7 @@ app.get('/send', function(req, res) {
   };
   var mailCopy = {
     to: req.query.email,
-    text: "You submitted the following message to:  \n \n l2workquery@gmail.com.  \n \n Your Message: \n \n " + req.query.text
+    text: "You submitted the following message to:  \n \n brian@l2engineers.com.  \n \n Your Message: \n \n " + req.query.text
   };
   smtpTransport.sendMail(mailOptions, function(error, response){
     console.log('mailcopy', mailCopy);

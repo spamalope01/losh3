@@ -39,6 +39,7 @@ $(window).scroll(function() {
         text: mail.$message
       }, function(data){
         console.log('in the get function');
+        console.log('data', data);
         if(data == "sent"){
           console.log("email sent");
           $('.contactForm').hide();
