@@ -18,6 +18,9 @@ var smtpTransport = nodemailer.createTransport({
   auth: {
     user: "brian@l2engineers.com",
     pass: pass
+  },
+  tls: {
+    ciphers: 'SSLv3'
   }
 });
 
