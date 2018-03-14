@@ -13,23 +13,44 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+// var smtpTransport = nodemailer.createTransport({
+//   host: "L2ENGINEERS.com.mail.outlook.com",
+//   port: 587,
+//   secureConnection: false,
+//   auth: {
+//     user: "Brian@L2Engineers.com",
+//     pass: pass
+//   },
+//   tls: {
+//     ciphers: "SSLv3"
+//   }
+// });
+
+// var smtpTransport = nodemailer.createTransport({
+//   host: "smtp.office365.com", // hostname
+//       secureConnection: false, // TLS requires secureConnection to be false
+//       port: 587, // port for secure SMTP
+//       auth: {
+//           user: "jdaniel@talkingrain.com",
+//           pass: "Stone908"
+//       },
+//       tls: {
+//           ciphers:'SSLv3'
+//       }
+// });
+
+
 var smtpTransport = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  secureConnection: false,
-  port: 587,
+  host: "smtp.gmail.com",
   auth: {
-    user: "brian@l2engineers.com",
+    user: "l2workquery@gmail.com",
     pass: pass
-  },
-  tls: {
-    ciphers: 'SSLv3'
   }
 });
 
 app.get('/send', function(req, res) {
-  console.log('in the app.get /send');
   var mailOptions={
-    to : "brian@l2engineers.com",
+    to : "Brian@L2Engineers.com",
     subject: "Inquiry about work.",
     from: req.query.email,
     phone: req.query.phone,
@@ -38,26 +59,21 @@ app.get('/send', function(req, res) {
   };
   var mailCopy = {
     to: req.query.email,
-    text: "You submitted the following message to:  \n \n brian@l2engineers.com.  \n \n Your Message: \n \n " + req.query.text
+    from: "Brian@L2Engineers.com",
+    text: "You submitted the following message to:  \n \n Brian@L2Engineers.com.  \n \n Your Message: \n \n " + req.query.text
   };
   smtpTransport.sendMail(mailOptions, function(error, response){
-    console.log('in the first send', mailOptions);
     if(error){
-      console.log('there was a problem', error);
-      res.end("error");
+      res.end("error", error);
     }else{
-      console.log("Message sent: " + res.message);
       res.end("sent");
     }
   });
   smtpTransport.sendMail(mailCopy, function(error, response){
-    console.log('in the copy sendmail', mailCopy);
-    // console.log('mailCpy', mailCopy);
+    console.log('mailCopy', mailCopy);
     if(error){
-      console.log('there was a problem', error);
       res.end("error");
     }else{
-      console.log("Copy sent: " + res.message);
       res.end("sent");
     }
   })
