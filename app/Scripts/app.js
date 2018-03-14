@@ -24,7 +24,6 @@ $(window).scroll(function() {
   mail.$email = null;
   mail.$message = null;
 
-
   mail.getForm = function(){
     $('.contactForm').off().on('click', '.sendMail', function(e){
       e.preventDefault();
@@ -32,15 +31,13 @@ $(window).scroll(function() {
       mail.$email = $('.contactForm input[name=email]').val();
       mail.$phone = $('.contactForm input[name=phone]').val();
       mail.$message = $('.contactForm textarea[name=message]').val();
-      $.get("https://loshtest.herokuapp.com/send", {
+      $.get("http://l2engineers.com/send", {
         from: mail.$from,
         phone: mail.$phone,
         email: mail.$email,
         text: mail.$message
       }, function(data){
-        console.log('in the get function');
         if(data == "sent"){
-          console.log("email sent");
           $('.contactForm').hide();
           $('.contactInvite').hide();
           $('#sentMessage').empty().html(
