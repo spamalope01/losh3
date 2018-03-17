@@ -13,32 +13,6 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-// var smtpTransport = nodemailer.createTransport({
-//   host: "L2ENGINEERS.com.mail.outlook.com",
-//   port: 587,
-//   secureConnection: false,
-//   auth: {
-//     user: "Brian@L2Engineers.com",
-//     pass: pass
-//   },
-//   tls: {
-//     ciphers: "SSLv3"
-//   }
-// });
-
-// var smtpTransport = nodemailer.createTransport({
-//   host: "smtp.office365.com", // hostname
-//       secureConnection: false, // TLS requires secureConnection to be false
-//       port: 587, // port for secure SMTP
-//       auth: {
-//           user: "jdaniel@talkingrain.com",
-//           pass: "Stone908"
-//       },
-//       tls: {
-//           ciphers:'SSLv3'
-//       }
-// });
-
 
 var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
