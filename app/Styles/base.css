@@ -12,7 +12,7 @@ header {
 }
 
 .landingUpper {
-  background: url('../Images/newBackground.jpg') no-repeat fixed;
+  background: url('../Images/newBackground_min.jpg') no-repeat fixed;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -26,7 +26,6 @@ header {
   margin-top: 4rem;
   padding-bottom: 5rem;
   height: 40rem;
-  /* overflow: auto; */
 }
 
 .testimonials {
@@ -54,12 +53,6 @@ header {
   position: relative;
 }
 
-/* .contactBtn {
-  background: #fff;
-  width: 5em;
-  height: 10rem;
-  z-index: 10;
-} */
 
 footer {
   position: relative;
@@ -86,7 +79,6 @@ footer {
   margin-bottom: 3%;
   width: 15rem;
   background-color: #0d82df;
-  /* background-color: #63D1F4; */
   border-color: #0d82df;
   font-weight: 400;
   line-height: 1.25;

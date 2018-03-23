@@ -13,6 +13,7 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
+
 var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   auth: {
@@ -23,7 +24,7 @@ var smtpTransport = nodemailer.createTransport({
 
 app.get('/send', function(req, res) {
   var mailOptions={
-    to : "l2workquery@gmail.com",
+    to : "Brian@L2Engineers.com",
     subject: "Inquiry about work.",
     from: req.query.email,
     phone: req.query.phone,
@@ -32,25 +33,21 @@ app.get('/send', function(req, res) {
   };
   var mailCopy = {
     to: req.query.email,
-    text: "You submitted the following message to:  \n \n l2workquery@gmail.com.  \n \n Your Message: \n \n " + req.query.text
+    from: "Brian@L2Engineers.com",
+    text: "You submitted the following message to:  \n \n Brian@L2Engineers.com.  \n \n Your Message: \n \n " + req.query.text
   };
   smtpTransport.sendMail(mailOptions, function(error, response){
-    console.log('mailcopy', mailCopy);
     if(error){
-      console.log('there was a problem', error);
-      res.end("error");
+      res.end("error", error);
     }else{
-      console.log("Message sent: " + res.message);
       res.end("sent");
     }
   });
   smtpTransport.sendMail(mailCopy, function(error, response){
-    console.log('in the sendmail');
+    console.log('mailCopy', mailCopy);
     if(error){
-      console.log('there was a problem', error);
       res.end("error");
     }else{
-      console.log("Copy sent: " + res.message);
       res.end("sent");
     }
   })

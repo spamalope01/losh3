@@ -4,7 +4,6 @@
   width: 100%;
   z-index: 6;
   height: 7em;
-  border-bottom: 1px solid #fff;
 }
 
 
@@ -22,6 +21,15 @@
 
 .darkNav {
   background: rgba(0,0,0,.75);
+  height: 4em;
+}
+
+.darkNavLogo {
+  width: 2.5rem;
+  display: block;
+  position: absolute;
+  left: 1%;
+  top: 15%;
 }
 
 .globalNav li {
@@ -55,23 +63,23 @@ text-transform: uppercase;
   width: 6rem;
 }
 
-.upperText {
+.heroText {
   position: absolute;
   top: 25%;
-  /* top: 33%; */
+  left: 33%;
   color: white;
   text-align: center;
-  padding: 2px 16px;
+}
+
+.upperText {
   width: 100%;
   font-size: 70px;
+  margin-bottom: 0;
 }
 
 .small{
   color: white;
-  position: absolute;
-  top: 40%;
-  left: 34%;
-  width: 75%;
+  margin-top: 2%;
   font-size: 33px;
 }
 
@@ -79,7 +87,7 @@ text-transform: uppercase;
   color: grey;
   position: absolute;
   bottom: 4.5%;
-    left: 48.5%;
+  left: 48.5%;
 }
 
 .learnLink {
@@ -105,10 +113,16 @@ text-transform: uppercase;
 }
 
 
+@media only screen and (min-width: 1601px) {
+  .globalNav li {
+    font-size: 1.2em;
+  }
 
+  .learnMore {
+    left: 46.5%;
+  }
 
-/* Mobile */
-
+}
 
  /* Mobile */
  @media only screen and (max-width: 480px) {
@@ -116,12 +130,11 @@ text-transform: uppercase;
 html{height:100%,width:100%}
 
  .landingUpper {
-   background: url('../Images/newBackground.jpg');
+   background: url('../Images/newBackground_min.jpg');
    -webkit-background-size: cover;
    -moz-background-size: 100%;
    -o-background-size: 100%;
    background-size: cover;
-   /* background-attachment: scroll; */
    background-repeat: no-repeat;
    background-color: #464646;
    min-height: 100vh;
@@ -159,25 +172,24 @@ html{height:100%,width:100%}
    }
 
    .svcsNav{
-        position: absolute;
-        left: 4%;
+      position: absolute;
+      left: 4%;
       }
 
-      .workNav {
-        position: absolute;
-        left: 27.5%;
-      }
+    .workNav {
+      position: absolute;
+      left: 27.5%;
+    }
 
-      .aboutNav{
-        position: absolute;
-        /* left: 40%; */
-        right: 31%
-      }
+    .aboutNav{
+      position: absolute;
+      right: 31%
+    }
 
-      .contactNav {
-        position: absolute;
-        right: 5%;
-      }
+    .contactNav {
+      position: absolute;
+      right: 5%;
+    }
 
    .mobileNav li a {
      display: inline-block;
@@ -195,21 +207,38 @@ html{height:100%,width:100%}
      width: 6rem;
    }
 
+   .darkNavLogo {
+     position: static;
+     display: block;
+     margin-top: 1%;
+     margin-left: auto;
+     margin-right: auto;
+     width: 2.5rem;
+   }
+
+   .darkNav {
+     height: 5.5rem;
+   }
+
 
  /* Upper Landing */
 
+ .heroText {
+   position: absolute;
+   top: 30%;
+   left: 0%;
+ }
+
    .upperText {
-     position: absolute;
-     top: 25%;
+     display: inline-block;
+     margin-right: 30%;
      width: 100%;
      font-size: 44px;
    }
 
    .small{
-     top: 45%;
-     left: 13%;
-     /* margin-left: 6%; */
-     width: 80%;
+     padding-left: 10%;
+     width: 81%;
      text-align: center;
    }
 
@@ -223,31 +252,16 @@ html{height:100%,width:100%}
      left: 30%;
    }
 
+}
 
+   /* For IE */
+   @media all and (-ms-high-contrast: none), (-ms-high-contrast:active){
+     .learnMore {
+       margin-bottom: 24px;
+     }
 
+     .moreIcon {
+       margin-top: 32px;
+     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- }
+}

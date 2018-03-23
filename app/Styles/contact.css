@@ -35,10 +35,45 @@ label {
   grid-column: 3 / 7;
 }
 
+.contactBackTop{
+  float: right;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  width: 36px;
+}
+
+#sentMessage {
+  display: inline-block;
+    font-style: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1200px)  {
+  .contactWrapper {
+    display: block;
+  }
+
+  .contactUs {
+    width: 80%;
+  }
+
+  .contactForm {
+    padding-left: 0;
+  }
+
+  .contactUs{
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
 
 /* Mobile */
 
- @media only screen and (max-width: 667px) {
+ @media only screen and (max-width: 480px){
 .contactInvite{
   width: 80%;
   margin: 0 auto;
@@ -57,6 +92,11 @@ label {
 .contactForm{
   width: 100%;
   margin-left: 3%;
+}
+
+#sentMessage {
+  margin-left: 20%;
+  width: 90%;
 }
 
 }

@@ -29,7 +29,7 @@
   grid-column: 1 / 5;
   grid-row: 1 / 16;
   border: 1px solid black;
-  background: url("../Images/NorkirkDev.png") no-repeat;
+  background: url("../Images/NorkirkDev_min.png") no-repeat;
   background-size: cover;
 }
 
@@ -37,7 +37,7 @@
   grid-column: 5 / 9;
   grid-row: 1 / 8;
   border: 1px solid black;
-  background: url("../Images/WilliamsRes.png") no-repeat;
+  background: url("../Images/WilliamsRes_min.png") no-repeat;
   background-size: cover;
 }
 
@@ -45,25 +45,15 @@
   border: 1px solid black;
   grid-column: 5 / 7;
   grid-row: 8 / 16;
-  background: url("../Images/KentCommercial.png") no-repeat;
+  background: url("../Images/KentCommercial_min.png") no-repeat;
   background-size: cover;
 }
-
-/* .proj4 {
-  border: 1px solid black;
-  grid-column: 7 / 9;
-  grid-row: 1 / 8;
-  /* background: url("../Images/GamrothRemodel.png") no-repeat; */
-  /* background: url("../Images/DevonshirePointe.png") no-repeat; */
-  /* background-size: cover; */
-/* } */
 
 .proj5 {
   border: 1px solid black;
   grid-column: 7 / 9;
   grid-row: 8 / 16;
-  /* background: url("../Images/DevonshirePointe.png") no-repeat; */
-  background: url("../Images/GamrothRemodel.png") no-repeat;
+  background: url("../Images/GamrothRemodel_min.png") no-repeat;
   background-size: cover;
 }
 
@@ -100,13 +90,53 @@
 }
 
 
+/* Really big monitors  */
+@media (min-width: 1681px) {
 
+  .projectsContainer {
+    grid-template-columns: repeat(16, 165px);
+    grid-gap: 4px;
+    margin-left: 1%;
+  }
+
+  .mainProj{
+      grid-column: 1 / 6;
+  }
+
+  .proj2{
+  grid-column: 6 / 12;
+  }
+
+  .proj3{
+  grid-column: 6 / 9;
+  }
+
+  .proj5{
+  grid-column: 9 / 12;
+  }
+}
+
+/* Smaller laptops */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .projectsContainer {
+    grid-template-columns: repeat(16, 145px);
+    margin-left: 7%;
+}
+
+.mid5 {
+  padding-top: 7%;
+}
+
+.landImg {
+  margin-right: 5%;
+}
+
+}
 
 
 
 /* Mobile */
-
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 480px){
   .ourWork{
     height: 132rem;
  }
@@ -140,7 +170,7 @@
     right: 0;
     width: 100%;
     height: 22rem;
-    background: url("../Images/NorkirkDev.png") no-repeat;
+    background: url("../Images/NorkirkDev_min.png") no-repeat;
     background-size: cover;
   }
 
@@ -157,7 +187,7 @@
     position: absolute;
     top: 32%;
     left: 0;
-    background: url("../Images/WilliamsRes.png") no-repeat;
+    background: url("../Images/WilliamsRes_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 17rem;
@@ -175,7 +205,7 @@
 
   .proj3{
     position: absolute;
-    background: url("../Images/KentCommercial.png") no-repeat;
+    background: url("../Images/KentCommercial_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     top: 55.4%;
@@ -192,7 +222,7 @@
 
   .proj4 {
     position: absolute;
-    background: url("../Images/GamrothRemodel.png") no-repeat;
+    background: url("../Images/GamrothRemodel_min.png") no-repeat;
     background-size: cover;
     width: 100%;
     top: 76.5%;
@@ -206,25 +236,114 @@
     left: 0;
     margin-left: 1%;
     margin-right: 1%;
-    /* martin-bottom: 3 */
     line-height: 1.6;
 
   }
+}
 
-  /* .proj5{
+
+/* For IE */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast:active){
+  .ourWork{
+    height: 132rem;
+ }
+
+ .workTitle {
+   padding-top: 1%;
+ }
+
+ hr {
+   display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1.75em 9% 1.5em;
+    padding: 0;
+    width: 80%;
+ }
+
+  .mobileWork {
+    display: inline-block;
+  }
+
+  .projectsContainer{
+    display: none;
+  }
+
+  .mainProj {
     position: absolute;
-    background: url("../Images/DevonshirePointe.png") no-repeat;
+    top: 7%;
+    left: 10%;
+    right: 0;
+    width: 80%;
+    height: 36rem;
+    background: url("../Images/NorkirkDev_min.png") no-repeat;
+    background-size: cover;
+  }
+
+  .mainDesc {
+    position: absolute;
+    top: 34.5%;
+    left: 0;
+    right: 0;
+    color: #000;
+    line-height: 1.6;
+  }
+
+  .proj2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    background: url("../Images/WilliamsRes_min.png") no-repeat;
     background-size: cover;
     width: 80%;
     height: 17rem;
-    top: 85%;
-    left: 12%;
   }
 
-  .proj5Desc{
+  .proj2Desc{
     position: absolute;
-    top: 97%;
-    left: 12%;
-    width: 81%
-  } */
+    top: 53.7%;
+    left: 0;
+    right: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    line-height: 1.6;
+  }
+
+  .proj3{
+    position: absolute;
+    background: url("../Images/KentCommercial_min.png") no-repeat;
+    background-size: cover;
+    width: 80%;
+    top: 59.4%;
+    left: 10%;
+    height: 17rem;
+  }
+
+  .proj3Desc{
+    position: absolute;
+    top: 73%;
+    left: 0;
+    line-height: 1.6;
+  }
+
+  .proj4 {
+    position: absolute;
+    background: url("../Images/GamrothRemodel_min.png") no-repeat;
+    background-size: cover;
+    width: 80%;
+    top: 78.5%;
+    left: 10%;
+    height: 17rem;
+  }
+
+  .proj4Desc{
+    position: absolute;
+    top: 93%;
+    left: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    line-height: 1.6;
+
+  }
 }
