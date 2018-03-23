@@ -31,7 +31,7 @@ $(window).scroll(function() {
       mail.$email = $('.contactForm input[name=email]').val();
       mail.$phone = $('.contactForm input[name=phone]').val();
       mail.$message = $('.contactForm textarea[name=message]').val();
-      $.get("http://l2engineers.com/send", {
+      $.get("l2engineers.com/send", {
         from: mail.$from,
         phone: mail.$phone,
         email: mail.$email,
