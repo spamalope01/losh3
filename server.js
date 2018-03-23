@@ -3,8 +3,8 @@ var app = express();
 var port = process.env.PORT || 9000;
 var nodemailer = require('nodemailer');
 
-const password = require('./variables');
-let pass = password.password;
+// const password = require('./variables');
+// let pass = password.password;
 
 app.use(express.static(__dirname + '/app'));
 
@@ -18,7 +18,7 @@ var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   auth: {
     user: "l2workquery@gmail.com",
-    pass: pass
+    pass: process.env.PASSWORD
   }
 });
 
