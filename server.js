@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var cors = require('cors');
 var port = process.env.PORT || 9000;
 var nodemailer = require('nodemailer');
 
@@ -18,7 +19,8 @@ var smtpTransport = nodemailer.createTransport({
   host: "smtp.gmail.com",
   auth: {
     user: "l2workquery@gmail.com",
-    pass: process.env.PASSWORD
+    pass: pass
+    // process.env.PASSWORD
   }
 });
 
