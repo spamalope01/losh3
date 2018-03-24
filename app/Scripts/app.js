@@ -15,28 +15,30 @@ $(window).scroll(function() {
 
 
 
-
 (function(module){
+  // var nodemailer = require('nodemailer');
   let mail = {};
 
-  mail.$$from = null;
+  mail.$from = null;
   mail.$phone = null;
   mail.$email = null;
   mail.$message = null;
 
   mail.getForm = function(){
-    $('.contactForm').off().on('click', '.sendMail', function(e){
-      e.preventDefault();
+    $('.contactForm').off().on('click', '.sendMail', function(){
+      $(location).attr('href', 'http://localhost:9000/send');
+      // e.preventDefault();
       mail.$from = $('.contactForm input[name=sender]').val();
       mail.$email = $('.contactForm input[name=email]').val();
       mail.$phone = $('.contactForm input[name=phone]').val();
       mail.$message = $('.contactForm textarea[name=message]').val();
-      $.get("l2engineers.com/send", {
+      $.get("http://localhost:9000/send", {
         from: mail.$from,
         phone: mail.$phone,
         email: mail.$email,
         text: mail.$message
-      }, function(data){
+      },
+      function(data){
         if(data == "sent"){
           $('.contactForm').hide();
           $('.contactInvite').hide();
@@ -52,38 +54,52 @@ $(window).scroll(function() {
 
 
 
-  mail.showContact = (function () {
-        $(".slide-toggle").click(function(){
-          $('.contactForm input[name=sender]').val("");
-          $('.contactForm input[name=email]').val("");
-          $('.contactForm input[name=phone]').val("");
-          $('.contactForm textarea[name=message]').val("");
-          $('#sentMessage').empty();
-          $('.contactForm').show();
-          $('.concactInvite').show();
-            $(".box").animate({
-                width: "toggle"
-            });
-        });
-        $('.box').css('position', 'absolute');
-    });
-
-
-    mail.hideContact = (function () {
-          $(".closeThis").click(function(){
-              $(".box").animate({
-                  width: "toggle"
-              });
-          });
-      });
+  // mail.smtpTransport = nodemailer.createTransport({
+  //   host: "smtp.gmail.com",
+  //   auth: {
+  //     user: "l2workquery@gmail.com",
+  //     pass: process.env.PASSWORD
+  //   }
+  // });
+  //
+  // app.get('/send', function(req, res) {
+  //   var mailOptions={
+  //     to : "Brian@L2Engineers.com",
+  //     subject: "Inquiry about work.",
+  //     from: req.query.email,
+  //     phone: req.query.phone,
+  //     email: req.query.email,
+  //     text : "You have received a project request. \n \n Contact Name: " + req.query.from + ". \n \n Contact email: " + req.query.email + ". \n \n Contact phone: " + req.query.phone + " \n \n Message: " + req.query.text
+  //   };
+  //   var mailCopy = {
+  //     to: req.query.email,
+  //     from: "Brian@L2Engineers.com",
+  //     text: "You submitted the following message to:  \n \n Brian@L2Engineers.com.  \n \n Your Message: \n \n " + req.query.text
+  //   };
+  //   smtpTransport.sendMail(mailOptions, function(error, response){
+  //     if(error){
+  //       res.end("error", error);
+  //     }else{
+  //       res.end("sent");
+  //     }
+  //   });
+  //   smtpTransport.sendMail(mailCopy, function(error, response){
+  //     console.log('mailCopy', mailCopy);
+  //     if(error){
+  //       res.end("error");
+  //     }else{
+  //       res.end("sent");
+  //     }
+  //   })
+  // });
 
 
 
 $(document).ready(function() {
   $('.darkNavLogo').hide();
     mail.getForm();
-    mail.showContact();
-    mail.hideContact();
+    // mail.showContact();
+    // mail.hideContact();
     $('.slideout').hide();
 });
 

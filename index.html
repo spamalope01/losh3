@@ -17,14 +17,14 @@
 
     <title>L2 Engineering</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="app/Styles/normalize.css">
-    <link rel="stylesheet" href="app/Styles/base.css">
-    <link rel="stylesheet" href="app/Styles/header.css">
-    <link rel="stylesheet" href="app/Styles/services.css">
-    <link rel="stylesheet" href="app/Styles/work.css">
-    <link rel="stylesheet" href="app/Styles/about.css">
-    <link rel="stylesheet" href="app/Styles/contact.css">
-    <link rel="stylesheet" href="app/Styles/footer.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="Styles/base.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/services.css">
+    <link rel="stylesheet" href="Styles/work.css">
+    <link rel="stylesheet" href="Styles/about.css">
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link rel="stylesheet" href="Styles/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
   </head>
@@ -215,11 +215,11 @@
             <section>
               <form class="contactForm" action="/send" method="post">
                 <label for="sender">Name</label>
-                <input class="inputField" type="text" name="sender" value="" required>
+                <input class="inputField" type="text" name="sender" value="" autocomplete="name" required>
                 <label for="email">Email</label>
-                <input class="inputField" type="email" name="email" value="">
+                <input class="inputField" type="email" name="email" value="" autocomplete="email">
                 <label for="phone">Phone Number</label>
-                <input class="inputField" type="text" name="phone" value="">
+                <input class="inputField" type="text" name="phone" value="" autocomplete="tel">
                 <label for="message">Message</label>
                 <textarea class="inputField" name="message" rows="8" cols="80"></textarea>
                 <input class="sendMail btn" type="button" name="sendIt" value="Submit">
@@ -265,6 +265,6 @@
     </footer>
 
   </body>
-  <script type="text/javascript" src="app/Scripts/app.js"></script>
-  <script type="text/javascript" src="app/Scripts/smoothscroll.js"></script>
+  <script type="text/javascript" src="Scripts/app.js"></script>
+  <script type="text/javascript" src="Scripts/smoothscroll.js"></script>
 </html>
