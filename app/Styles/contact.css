@@ -49,6 +49,25 @@ label {
     text-align: center;
 }
 
+.siteButton{
+  position: absolute;
+  left: 41%;
+  height: auto;
+  padding: 1.2rem 3.2rem;
+  font-size: 1.3rem;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  letter-spacing: 0;
+  border-radius: 50px;
+  border: 2px solid #999;
+  color: #999;
+  margin-top: 2%;
+}
+
 
 @media only screen and (min-width: 1200px)  {
   .contactWrapper {
@@ -66,6 +85,7 @@ label {
   .contactUs{
     width: 70%;
     margin: auto;
+    height: 10em;
   }
 }
 
@@ -86,6 +106,7 @@ label {
 }
 
 .contactUs{
+  height: 15em;
   grid-column: 1 / 3;
 }
 
@@ -97,6 +118,11 @@ label {
 #sentMessage {
   margin-left: 20%;
   width: 90%;
+}
+
+.siteButton {
+  left: 26%;
+  top: 60%;
 }
 
 }
