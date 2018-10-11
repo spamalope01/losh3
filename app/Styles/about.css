@@ -6,11 +6,16 @@
   line-height: 1.6;
 }
 
+.statesMap {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
 
 /* @media only screen and (max-width: 667px) { */
   @media only screen and (max-width: 480px){
   .aboutUs{
-    height: 35rem;
+    height: auto;
   }
 
   .aboutText{
